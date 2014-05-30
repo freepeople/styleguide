@@ -1,0 +1,21 @@
+{
+  "name": "Interactive-Framework",
+  "version": "0.0.1",
+  "authors": [
+    "Mike-T-Mitchell <michael.t.mitchell@outlook.com>"
+  ],
+  "description": "Responsive Interactive Framework",
+  "keywords": [
+    "responsive",
+    "framework"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
