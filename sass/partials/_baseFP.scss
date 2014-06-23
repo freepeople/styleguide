@@ -1,0 +1,64 @@
+// base styles
+@import "../modules/colors";
+@import "fonts";
+
+// headings
+h1 {
+  font-family: $serif;
+  font-style: italic;
+  font-weight: $normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: $dark-gray;
+}
+
+h2 {
+  font-family: $serif;
+  font-style: italic;
+  font-weight: $normal;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  color: $dark-gray;
+}
+
+// body
+body {
+  font-family: $sans;
+  font-size: 13px;
+  font-weight: $normal;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  color: $gray;
+}
+
+// links
+a {
+  font-family: $sans;
+  font-weight: $normal;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  color: $pale-pink;
+
+  &:hover {
+    color: $pale-pink-hover;
+  }
+
+  &.small{
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  &.serif {
+    font-family: $serif;
+    line-height: 14px;
+  }
+}
+
+// icons, checkboxes, radio buttons
+input[type="radio"] {
+  background: url(http://static.fpassets.com/resources/_shared/images/spritesheets/icons_2x.png); // retina, use icons.png for regular
+  }

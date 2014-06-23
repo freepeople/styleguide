@@ -1,0 +1,49 @@
+// button styles
+@import "../modules/colors";
+@import "../modules/fonts";
+
+// submit
+.fpSubmit {                      // .wl-ht-button -- class WL uses for this
+  padding: 1px;                  // for the hand-touched border
+  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
+
+  input.fpSubmitButton {         // .wl-ht-button .txt -- WL classes for this
+    box-sizing: border-box;
+    display: inline-block;
+    color: $white;
+    font-size: 11px;             // is 13 AND 14 px in different places on the site, this is what we used for the e-mail in-liner
+    font-family: $sans;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0;
+    padding: 12px !important;
+    background-color: $pink;
+    border: solid 1px $white;    // this is NOT USED on the homepage btns, but was used for Open Call / Pura Vida / E-mail in-liner
+    width: 100%;
+    outline: none;
+
+    &:hover {
+      background-color: $pink-hover;
+    }
+
+  }
+
+}
+
+// subscribe
+.fpSubscribe {
+  opacity: .5;
+  transition: opacity .1s ease;
+  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
+  color: $pale-pink;
+
+  a:hover {
+    opacity: .7;
+  }
+
+}

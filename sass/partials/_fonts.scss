@@ -1,0 +1,49 @@
+// font styles
+@import "../modules/colors";
+@import "../modules/fonts";
+
+
+// labels
+label {
+  font-family: $sans;
+  font-weight: $normal;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $gray;
+
+  &.bold {
+    font-weight: $bold;
+    color: $dark-gray;
+  }
+}
+
+// prices
+.price {
+  font-family: $sans;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: $gray;
+
+  &.symbol {
+     font-size: 14px;
+   }
+
+  &.dollars {
+    font-size: 20px;
+  }
+
+  &.cents {
+    font-size: 12px;
+  }
+
+  &.light {
+    font-weight: $light;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  &.markdown {
+    text-decoration: line-through;
+  }
+}
