@@ -1,5 +1,5 @@
 # Require any additional compass plugins here.
-add_import_path "bower_components/foundation5-sass/scss"
+add_import_path "node_modules/foundation-sass/scss"
 
 http_path = "/"
 css_dir = "./public/css"
