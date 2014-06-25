@@ -24,9 +24,9 @@ function Scroll() {
  */
 Scroll.prototype.getOffsets = function () {
     var self = this;
-    $('.' + self.trackOffset).each(function (index, obj) {
-        var pageOffsets = $(obj).offset().top;
-        self.yOffsets.push(Math.floor(pageOffsets));
+    $('.' + self.trackOffset).each(function () {
+        var pageOffsets = Math.floor($(this).offset().top);
+        self.yOffsets.push(pageOffsets);
     });
 }
 
