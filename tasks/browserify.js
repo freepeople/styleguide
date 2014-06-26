@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream'),
     glob = require('glob'),
     libs = require('./vendor').libs;
-
+    
 gulp.task('browserify', function () {
     // public scripts
     glob.sync('./src/scripts/*.js').forEach(function (file) {

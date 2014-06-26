@@ -15,8 +15,7 @@
   "license": "MIT",
   "repository": "freepeople/styleguide",
   "devDependencies": {
-    "browserify": "^3.44.2",  
-    "browsernizr": "^1.0.2",
+    "browserify": "^3.44.2",
     "canvas": "^1.1.3",
     "glob": "^3.2.9",
     "gulp": "^3.6.1",
@@ -38,6 +37,10 @@
     "vinyl-source-stream": "^0.1.1"
   },
   "scripts": {
-    "install": "napa clohr/Foundation5-SASS:foundation-sass"
+    "install": "napa"
+  },
+  "napa": {
+    "foundation-sass": "clohr/Foundation5-SASS",
+    "modernizr": "Modernizr/Modernizr"
   }
 }
