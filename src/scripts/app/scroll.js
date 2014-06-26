@@ -1,11 +1,15 @@
+
+'use strict';
+var $ = require('jquery');
+var _ = require('lodash');
+
+console.log(_.isArray([1,2,3]));
 /**
  * Highlight sidebar nav element on scroll
  * @constructor
  * @exports Scroll
  * @alias module:Scroll
  */
-'use strict';
-
 function Scroll() {
     if (!(this instanceof Scroll)) {
         return new Scroll();

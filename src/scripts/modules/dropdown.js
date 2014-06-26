@@ -1,6 +1,6 @@
 'use strict';
 
-var $ = require('jquery');
+// var $ = require('jQuery');
 
 module.exports = Dropdown;
 
