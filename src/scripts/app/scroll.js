@@ -3,7 +3,6 @@
 var $ = require('jquery');
 var _ = require('lodash');
 
-console.log(_.isArray([1,2,3]));
 /**
  * Highlight sidebar nav element on scroll
  * @constructor

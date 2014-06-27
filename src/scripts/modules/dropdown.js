@@ -1,8 +1,6 @@
 'use strict';
 
-// var $ = require('jQuery');
-
-module.exports = Dropdown;
+var $ = require('jquery');
 
 var _dropDownSelector = '[data-toggle="dropdown"]';
 
@@ -81,6 +79,6 @@ Dropdown.prototype = {
     }
 };
 
-$(_dropDownSelector).each(function() {
+module.exports = $(_dropDownSelector).each(function() {
     return new Dropdown($(this));
 });

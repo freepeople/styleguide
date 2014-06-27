@@ -2,7 +2,6 @@
 var gulp = require('gulp'),
     browserify = require('browserify'),
     source = require('vinyl-source-stream'),
-    glob = require('glob'),
     libs = require('./vendor').libs,
     entries = ['./src/scripts/app.js'];
 
