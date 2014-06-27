@@ -1,6 +1,6 @@
-@import
-  "normalize",
-  "foundation/components/grid",
-  "foundation/components/offcanvas", // remove; redo off-canvas styles
-  "partials/base",
-  "foundation/components/visibility";
+@import "normalize";
+@import "foundation/components/grid";
+@import "foundation/components/offcanvas";
+@import "partials/base";
+@import "foundation/components/visibility";
+@import "dropdown/dropdown";

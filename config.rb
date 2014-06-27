@@ -1,5 +1,6 @@
 # Require any additional compass plugins here.
 add_import_path "node_modules/foundation-sass/scss"
+add_import_path "src/scripts/modules"
 
 http_path = "/"
 css_dir = "./public/css"
