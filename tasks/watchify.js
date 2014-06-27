@@ -4,21 +4,20 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream'),
     libs = require('./vendor').libs;
 
+
 gulp.task('watch', function() {
     var bundleStream = watchify('./src/scripts/app.js');
-    // Run the first time
-    // with externals
-    bundleStream
-        .external(libs)
-        .bundle()
-        .pipe(source('app.js'))
-        .on('error', function(err) {
-            console.log(err);
-        })
-        .pipe(gulp.dest('./public/js'));
+    var firstTime = true;
 
-    // Runs per update
-    // no need for externals
+    // First time run
+    // needs to externals
+    // may need to revisit this concept later
+    if (firstTime) {
+        bundleStream.external(libs);
+        rebundle();
+        firstTime = false;
+    }
+
     function rebundle() {
         bundleStream
             .bundle()
