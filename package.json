@@ -34,10 +34,11 @@
     "lodash": "^2.4.1",
     "mocha": "^1.19.0",
     "napa": "^0.4.1",
-    "picturefill": "^0.1.0",
     "should": "^3.3.1",
     "vinyl-buffer": "0.0.0",
-    "vinyl-source-stream": "^0.1.1"
+    "vinyl-source-stream": "^0.1.1",
+    "watchify": "^0.10.2",
+    "picturefill": "^0.1.0"
   },
   "scripts": {
     "install": "napa"

@@ -1,6 +1,12 @@
+// foundation
 @import "normalize";
 @import "foundation/components/grid";
-@import "foundation/components/offcanvas";
-@import "partials/base";
 @import "foundation/components/visibility";
+
+// free people styles
+@import "main/partials/base";
+@import "main/partials/headings";
+@import "main/partials/links";
+
+// free people module styles
 @import "dropdown/dropdown";

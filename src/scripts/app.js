@@ -1,4 +1,6 @@
 'use strict';
-var Scroll = require('./app/scroll')();
-var Dropdown = require('./modules/dropdown/dropdown');
-Scroll.init();
+
+// right nav scroll highlighting
+require('./app/scroll')();
+// dropdown module
+require('./modules/dropdown/dropdown');

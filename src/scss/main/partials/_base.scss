@@ -1,0 +1,72 @@
+@import "compass/css3/box-sizing";
+@import "../modules/settings";
+@import "../modules/functions";
+@import "../modules/mixins";
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+html {
+  height: 100%;
+}
+
+.base-font {
+  font-family: $sans-serif;
+  @include rem-sizer(font-size, 13px);
+  line-height: $base-line-height;
+  letter-spacing: calc-ems(0.5px);
+  color: $gray;
+}
+
+// body content
+body {
+  @extend .base-font;
+  height: 100%;
+}
+
+p {
+  @extend .base-font;
+  margin: calc-ems(0 4px);
+}
+
+// links
+a {
+  @extend .base-font;
+  color: $pink;
+  text-decoration: none;
+  // hover
+  &:hover {
+    color: $pink;
+    text-decoration: underline;
+  }
+  // visited
+  &:visited {
+    color: $indigo;
+    text-decoration: none;
+  }
+}
+
+// navigation
+nav {
+  @extend .base-font;
+  @include rem-sizer(font-size, 17px);
+}
+
+// captions
+caption {
+  @extend .base-font;
+  @include rem-sizer(font-size, 11px);
+}
+
+// forms
+button, input {
+  @extend .base-font;
+  font-weight: 600;
+  @include rem-sizer(font-size, 15px);
+}
+
+label, textarea {
+  @extend .base-font;
+}

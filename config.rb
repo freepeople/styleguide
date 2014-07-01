@@ -5,7 +5,7 @@ add_import_path "src/scripts/modules"
 http_path = "/"
 css_dir = "./public/css"
 sass_dir = "./src/scss"
-output_style = :compressed
+output_style = :expanded
 relative_assets = true
 line_comments = false
 preferred_syntax = :scss

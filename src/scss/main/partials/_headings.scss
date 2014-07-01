@@ -1,0 +1,31 @@
+@import '../modules/settings';
+@import '../modules/mixins';
+
+.heading {
+  font: {
+    family: $serif;
+    style: italic;
+    weight: 400;
+  }
+  line-height: $base-line-height;
+  letter-spacing: em-calc(0.5px);
+  color: $dark-gray;
+}
+
+// page heading
+h1 {
+  @extend .heading;
+  @include rem-sizer(font-size, 17px);
+}
+
+// section heading, breadcrumb
+h2 {
+  @extend .heading;
+  @include rem-sizer(font-size, 15px);
+}
+
+// content heading
+h3 {
+  @extend .heading;
+  @include rem-sizer(font-size, 13px);
+}

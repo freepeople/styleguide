@@ -1,0 +1,12 @@
+a {
+  // small version
+  &.small {
+    @include rem-sizer(font-size, 10px);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  // serif version
+  &.serif {
+    font-family: $serif;
+  }
+}

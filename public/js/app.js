@@ -1,12 +1,13 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
-var Scroll = require('./app/scroll')();
-var Dropdown = require('./modules/dropdown/dropdown');
-Scroll.init();
 
+// right nav scroll highlighting
+require('./app/scroll')();
+// dropdown module
+require('./modules/dropdown/dropdown');
 },{"./app/scroll":2,"./modules/dropdown/dropdown":3}],2:[function(require,module,exports){
-
 'use strict';
+
 var $ = require('jquery');
 var _ = require('lodash');
 
@@ -27,6 +28,8 @@ function Scroll() {
     this.lastOffset = 0;
     this.currLoc = 0;
     this.direction = 'down';
+    // initialize
+    this.init();
 }
 
 /**
@@ -109,7 +112,9 @@ Scroll.prototype.init = function() {
 };
 
 /** @module Scroll */
-module.exports = Scroll;
+module.exports = function () {
+    return Scroll();
+};
 },{"jquery":"HlZQrA","lodash":"K2RcUv"}],3:[function(require,module,exports){
 'use strict';
 

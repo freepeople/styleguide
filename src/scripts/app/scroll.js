@@ -1,5 +1,5 @@
-
 'use strict';
+
 var $ = require('jquery');
 var _ = require('lodash');
 
@@ -20,6 +20,8 @@ function Scroll() {
     this.lastOffset = 0;
     this.currLoc = 0;
     this.direction = 'down';
+    // initialize
+    this.init();
 }
 
 /**
@@ -102,4 +104,6 @@ Scroll.prototype.init = function() {
 };
 
 /** @module Scroll */
-module.exports = Scroll;
+module.exports = function () {
+    return Scroll();
+};

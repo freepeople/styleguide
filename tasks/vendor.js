@@ -1,10 +1,11 @@
 'use strict';
-var gulp = require('gulp'),
-    browserify = require('browserify'),
-    source = require('vinyl-source-stream'),
-    buffer = require('vinyl-buffer'),
-    uglify = require('gulp-uglify'),
-    libs = ['jquery', 'lodash', 'picturefill'];
+
+var gulp = require('gulp');
+var browserify = require('browserify');
+var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
+var uglify = require('gulp-uglify');
+var libs = ['jquery', 'lodash', 'picturefill'];
 
 gulp.task('vendor', ['modernizr'], function() {
     // create external libraries
