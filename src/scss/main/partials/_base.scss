@@ -52,6 +52,10 @@ a {
 nav {
   @extend .base-font;
   @include rem-sizer(font-size, 17px);
+  // don't show visited pseudo class for nav links
+  a:visited {
+    color: $pink;
+  }
 }
 
 // captions

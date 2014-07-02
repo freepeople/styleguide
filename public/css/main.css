@@ -2298,6 +2298,9 @@ nav {
   font-size: 17px;
   font-size: 1.0625rem;
 }
+nav a:visited {
+  color: #ff008a;
+}
 
 caption {
   font-size: 11px;

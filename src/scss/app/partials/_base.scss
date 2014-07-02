@@ -78,9 +78,6 @@ pre {
     margin-top: 0;
     /* text-transform: uppercase; */
     li {
-      &:hover {
-        border-left: 2px solid #ff008a;
-      }
       &.hovered {
         border-left: 2px solid #ff008a;
       }

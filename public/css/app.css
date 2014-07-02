@@ -85,9 +85,6 @@ pre {
   margin-top: 0;
   /* text-transform: uppercase; */
 }
-.sidebar-app ul li:hover {
-  border-left: 2px solid #ff008a;
-}
 .sidebar-app ul li.hovered {
   border-left: 2px solid #ff008a;
 }

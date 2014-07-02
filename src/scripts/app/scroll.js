@@ -14,7 +14,7 @@ function Scroll() {
         return new Scroll();
     }
     // add global variable that references the class
-    this.trackOffset = 'trackOffset';
+    this.trackOffset = '.trackOffset';
     this.hovered = 'hovered';
     this.yOffsets = [];
     this.lastOffset = 0;
@@ -31,11 +31,23 @@ function Scroll() {
  */
 Scroll.prototype.getOffsets = function() {
     var self = this;
-    $('.' + self.trackOffset).each(function() {
-        var pageOffsets = Math.floor($(this).offset().top);
+    $(self.trackOffset).each(function() {
+        // account for margin of element
+        var pageOffsets = Math.floor($(this).offset().top) + parseInt($(this).css('margin-top'));
         self.yOffsets.push(pageOffsets);
     });
 };
+
+/**
+ * @public
+ * @memberof module:Scroll#
+ * @method highlight
+ */
+Scroll.prototype.highlight = function () {
+    var self = this;
+    $('ul#sidebarID li').removeClass(self.hovered);
+    $('ul#sidebarID li').eq(self.lastOffset).addClass(self.hovered);
+}
 
 /**
  * @public
@@ -49,6 +61,7 @@ Scroll.prototype.compareOffsets = function() {
             if (this.lastOffset >= this.yOffsets.length) {
                 this.lastOffset = this.yOffsets.length - 1;
             }
+            this.highlight();
         }
     } else {
         // up
@@ -57,6 +70,7 @@ Scroll.prototype.compareOffsets = function() {
             if (this.lastOffset < 0) {
                 this.lastOffset = 0;
             }
+            this.highlight();
         }
     }
 };
@@ -68,7 +82,7 @@ Scroll.prototype.compareOffsets = function() {
  */
 Scroll.prototype.bindEvents = function() {
     var self = this;
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         var $this = $(this);
         if ($this.scrollTop() >= self.currLoc) {
             self.direction = 'down';
@@ -77,9 +91,11 @@ Scroll.prototype.bindEvents = function() {
         }
         self.currLoc = $this.scrollTop();
         self.compareOffsets();
-        var correctedIndex = self.lastOffset + 1;
-        $('ul#sidebarID li').removeClass(self.hovered);
-        $('ul li:nth-child(' + correctedIndex + ')').addClass(self.hovered);
+    });
+
+    $('ul#sidebarID li a').on('click', function () {
+        self.currLoc = $(this).scrollTop();
+        self.compareOffsets();
     });
 
     $(".menu-icon").on("click", function() {
