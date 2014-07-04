@@ -24,6 +24,14 @@ html {
   color: $gray;
 }
 
+.san-serif {
+  font-family: $sans-serif;
+}
+
+.serif {
+  font-family: $serif;
+}
+
 // body content
 body {
   @extend .base-font;

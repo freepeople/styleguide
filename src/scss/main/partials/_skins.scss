@@ -1,3 +1,40 @@
 /**
  * Styles for hand-touched borders and backgrounds
  */
+
+@import "../modules/settings";
+@import "../modules/mixins";
+
+// nested block element border box
+.dark-gray-border-box {
+  @include hand-touched-border-box();
+}
+
+.gray-border-box {
+  @include hand-touched-border-box($gray-bg-img);
+}
+
+.light-gray-border-box {
+  @include hand-touched-border-box($light-gray-bg-img);
+}
+
+.pink-border-box {
+  @include hand-touched-border-box($pink-bg-img);
+}
+
+// border images
+.dark-gray-border {
+  @include hand-touched-border();
+}
+
+.gray-border {
+  @include hand-touched-border($gray-bg-img);
+}
+
+.light-gray-border {
+  @include hand-touched-border($light-gray-bg-img);
+}
+
+.pink-border {
+  @include hand-touched-border($pink-bg-img);
+}

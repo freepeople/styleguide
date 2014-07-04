@@ -2275,6 +2275,14 @@ html {
   color: #7e7e7e;
 }
 
+.san-serif {
+  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.serif {
+  font-family: "Hoefler Text", Baskerville, "Baskerville old face", Garamond, Times New Roman, serif;
+}
+
 body {
   height: 100%;
 }
@@ -2362,45 +2370,128 @@ a.serif {
 /**
  * Styles for hand-touched borders and backgrounds
  */
+.dark-gray-border-box {
+  margin: 16px 0;
+  background: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-75.png");
+  padding: 1px;
+}
+.dark-gray-border-box > * {
+  display: inline-block;
+  padding: 16px;
+  background-color: white;
+}
+
+.gray-border-box {
+  margin: 16px 0;
+  background: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-50.png");
+  padding: 1px;
+}
+.gray-border-box > * {
+  display: inline-block;
+  padding: 16px;
+  background-color: white;
+}
+
+.light-gray-border-box {
+  margin: 16px 0;
+  background: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-25.png");
+  padding: 1px;
+}
+.light-gray-border-box > * {
+  display: inline-block;
+  padding: 16px;
+  background-color: white;
+}
+
+.pink-border-box {
+  margin: 16px 0;
+  background: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png");
+  padding: 1px;
+}
+.pink-border-box > * {
+  display: inline-block;
+  padding: 16px;
+  background-color: white;
+}
+
+.dark-gray-border {
+  margin: 16px 0;
+  padding: 16px;
+  border: #3e3e3e solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-75.png") 1 1 repeat;
+  background: white;
+}
+
+.gray-border {
+  margin: 16px 0;
+  padding: 16px;
+  border: #3e3e3e solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-50.png") 1 1 repeat;
+  background: white;
+}
+
+.light-gray-border {
+  margin: 16px 0;
+  padding: 16px;
+  border: #3e3e3e solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-25.png") 1 1 repeat;
+  background: white;
+}
+
+.pink-border {
+  margin: 16px 0;
+  padding: 16px;
+  border: #3e3e3e solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png") 1 1 repeat;
+  background: white;
+}
+
 /**
  * Styles for buttons
  */
-.fpSubmit {
-  padding: 1px;
-  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-}
-.fpSubmit input.fpSubmitButton {
-  box-sizing: border-box;
+.btn, .pink-button, button, .white-button {
   display: inline-block;
-  color: white;
-  font-size: 11px;
-  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0 3px;
+  position: relative;
+  border: 0;
+  background: white;
+  padding: 8px;
+  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  word-spacing: 2px;
-  line-height: 1;
-  vertical-align: middle;
-  cursor: pointer;
-  margin: 0;
-  padding: 16px;
-  background-color: #ff008a;
-  border: solid 1px white;
-  width: 100%;
-  outline: none;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
 }
-.fpSubmit input.fpSubmitButton:hover {
-  background-color: #660037;
+.btn:before, .pink-button:before, button:before, .white-button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border: solid 1px transparent;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png") 1 1 repeat;
 }
 
-.fpSubscribe {
-  opacity: .5;
-  transition: opacity .1s ease;
-  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-  color: #ff008a;
+.pink-button, button {
+  background: #ff008a;
+  color: white;
 }
-.fpSubscribe a:hover {
-  opacity: .7;
+.pink-button:hover, button:hover {
+  background: #e6007c;
+}
+
+.white-button {
+  background: white;
+  color: #ff33a1;
+}
+.white-button:hover {
+  color: #cc006e;
+  background: white;
 }
 
 /**

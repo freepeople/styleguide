@@ -2,49 +2,56 @@
  * Styles for buttons
  */
 
+@import "../modules/settings";
+@import "../modules/mixins";
+@import "compass/css3";
 
-// submit
-.fpSubmit {                      // .wl-ht-button -- class WL uses for this
-  padding: 1px;                  // for the hand-touched border
-  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-
-  input.fpSubmitButton {         // .wl-ht-button .txt -- WL classes for this
-    box-sizing: border-box;
-    display: inline-block;
-    color: $white;
-    font-size: 11px;             // is 13 AND 14 px in different places on the site, this is what we used for the e-mail in-liner
-    font-family: $sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    word-spacing: 2px;
-    line-height: 1;
-    vertical-align: middle;
-    cursor: pointer;
-    margin: 0;
-    padding: $default-spacing;
-    background-color: $pink;
-    border: solid 1px $white;    // this is NOT USED on the homepage btns, but was used for Open Call / Pura Vida / E-mail in-liner
-    width: 100%;
-    outline: none;
-
-    &:hover {
-      background-color: darken($pink, 30%);
-    }
-
+.btn {
+  display: inline-block;
+  margin: 0 3px;
+  position: relative;
+  border: 0;
+  background: $white;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border: solid 1px transparent;
+    border-image: url($pink-bg-img) 1 1 repeat;
   }
-
+  padding: $default-spacing/2;
+  @include rem-sizer(14px);
+  text: {
+    align: center;
+    transform: uppercase;
+  }
+  @include transition(all .25s);
 }
 
-// subscribe
-.fpSubscribe {
-  opacity: .5;
-  transition: opacity .1s ease;
-  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-  color: $pink;
-
-  a:hover {
-    opacity: .7;
+// submit
+.pink-button {
+  @extend .btn;
+  background: $pink;
+  color: $white;
+  &:hover {
+    background: darken($pink, 5%);
   }
+}
 
+button {
+  @extend .pink-button;
+}
+
+.white-button {
+  @extend .btn;
+  background: $white;
+  color: lighten($pink, 10%);
+  &:hover {
+    color: darken($pink, 10%);
+    background: $white;
+  }
 }

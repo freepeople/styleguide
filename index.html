@@ -78,17 +78,19 @@
         <!-- CONTENT BODY -->
         <div class="small-12 medium-9 large-9 columns content">
 
+            <!-- TYPOGRAPHY -->
             <h1 id="typography" data-offset>Typography</h1>
             <p>The quick brown fox jumped over the lazy dog.</p>
-            <p>The quick brown fox jumped over the lazy dog.</p>
+            <p class="serif">The quick brown fox jumped over the lazy dog.</p>
             <div class="codex">
                 <h3>Code:</h3>
 <pre class="prettyprint lang-html">
 &lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
-&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;p class="serif"&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
 </pre>
             </div>
 
+            <!-- HEADINGS -->
             <h1 id="headings" data-offset>Headings</h1>
             <h1>The quick brown fox jumped over the lazy dog.</h1>
             <h2>The quick brown fox jumped over the lazy dog.</h2>
@@ -102,7 +104,7 @@
 </pre>
             </div>
 
-
+            <!-- LINKS -->
             <h1 id="links" data-offset>Links</h1>
             <p>The <a href="#">quick brown fox</a> jumped over the lazy dog.</p>
             <p>The quick brown fox jumped over the <a href="#">lazy dog</a>.</p>
@@ -114,24 +116,47 @@
 </pre>
             </div>
 
+            <!-- SKINS -->
             <h1 id="skins" data-offset>Skins</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis. Quisque non faucibus nisi. Suspendisse pellentesque ultrices ante, porttitor egestas dui tempor nec. Fusce et consectetur mauris. Phasellus vitae condimentum quam. Cras vel eros non risus tincidunt pellentesque. Pellentesque sed velit a purus vestibulum iaculis. Nam consectetur quam lacus, in venenatis massa semper sit amet. Pellentesque aliquet non est ut aliquam. Etiam gravida mauris quam, quis lobortis ipsum venenatis vel. Nam elementum orci pharetra metus tincidunt placerat.<br><br>
+            <div class="dark-gray-border-box">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna.
+                Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis.</span>
+            </div>
+            <div class="pink-border">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna.
+                Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis.
+            </div>
             <div class="codex">
                 <h3>Code:</h3>
 <pre class="prettyprint lang-html">
+&lt;div class="dark-gray-border-box"&gt;
+    &lt;span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="pink-border"&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis.
+&lt;/div&gt;
 </pre>
             </div>
 
+            <!-- BUTTONS -->
             <h1 id="buttons" data-offset>Buttons</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis. Quisque non faucibus nisi. Suspendisse pellentesque ultrices ante, porttitor egestas dui tempor nec. Fusce et consectetur mauris. Phasellus vitae condimentum quam. Cras vel eros non risus tincidunt pellentesque. Pellentesque sed velit a purus vestibulum iaculis. Nam consectetur quam lacus, in venenatis massa semper sit amet. Pellentesque aliquet non est ut aliquam. Etiam gravida mauris quam, quis lobortis ipsum venenatis vel. Nam elementum orci pharetra metus tincidunt placerat.<br><br>
-            <div class="codex"><strong>Code:</strong></div>
-            <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis. Quisque non faucibus nisi.</pre>
+            <button>Submit My Order</button>
+            <button class="white-button">Sign Up</button>
+            <div class="codex">
+                <h3>Code:</h3>
+<pre class="prettyprint lang-html">
+&lt;button&gt;Submit My Order&lt;/button&gt;
+&lt;button class="white-button"&gt;Sign Up&lt;/button&gt;
+</pre>
+            </div>
 
+            <!-- FORMS -->
             <h1 id="forms" data-offset>Forms</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis. Quisque non faucibus nisi. Suspendisse pellentesque ultrices ante, porttitor egestas dui tempor nec. Fusce et consectetur mauris. Phasellus vitae condimentum quam. Cras vel eros non risus tincidunt pellentesque. Pellentesque sed velit a purus vestibulum iaculis. Nam consectetur quam lacus, in venenatis massa semper sit amet. Pellentesque aliquet non est ut aliquam. Etiam gravida mauris quam, quis lobortis ipsum venenatis vel. Nam elementum orci pharetra metus tincidunt placerat.<br><br>
             <div class="codex"><strong>Code:</strong></div>
             <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis. Quisque non faucibus nisi.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis condimentum magna. Curabitur in nisl id elit feugiat tincidunt. Donec aliquet volutpat nisl vel venenatis. Quisque non faucibus nisi.</pre>
 
+            <!-- ALERTS -->
             <h1 id="alerts" data-offset>Alerts</h1>
             <div class="alertMsg">
                 <a href="#" class="alert--close">X</a>
@@ -162,6 +187,8 @@
 &lt;/div&gt;
 </pre>
             </div>
+
+            <!-- CURRENCY -->
             <h1 id="currency" data-offset>Currency</h1>
             <div>
                 <span class="price--symbol">$</span><span class="price--dollars">49</span><span class="price--cents">.99</span>
@@ -186,7 +213,7 @@
 &lt;/div&gt;
 </pre>
             </div>
-
+            <!-- DROPDOWNS -->
             <h1 id="dropdowns" data-offset>Dropdowns</h1>
             <div class="dropdowns group margin-bottom">
                 <div class="dropdown floatLeft">
