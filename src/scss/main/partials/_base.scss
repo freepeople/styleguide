@@ -1,9 +1,13 @@
+/**
+ * Base styles for typography and standard html elements
+ */
+
 @import "compass/css3/box-sizing";
 @import "../modules/settings";
 @import "../modules/functions";
 @import "../modules/mixins";
 
-/* apply a natural box layout model to all elements */
+// apply a natural box layout model to all elements
 *, *:before, *:after {
   @include box-sizing(border-box);
 }
@@ -14,7 +18,7 @@ html {
 
 .base-font {
   font-family: $sans-serif;
-  @include rem-sizer(font-size, 13px);
+  @include rem-sizer(13px);
   line-height: $base-line-height;
   letter-spacing: calc-ems(0.5px);
   color: $gray;
@@ -28,7 +32,7 @@ body {
 
 p {
   @extend .base-font;
-  margin: calc-ems(0 4px);
+  margin: calc-ems($default-spacing/2) 0;
 }
 
 // links
@@ -39,7 +43,8 @@ a {
   // hover
   &:hover {
     color: $pink;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: solid 1px $pink;
   }
   // visited
   &:visited {
@@ -51,7 +56,7 @@ a {
 // navigation
 nav {
   @extend .base-font;
-  @include rem-sizer(font-size, 17px);
+  @include rem-sizer(17px);
   // don't show visited pseudo class for nav links
   a:visited {
     color: $pink;
@@ -61,14 +66,14 @@ nav {
 // captions
 caption {
   @extend .base-font;
-  @include rem-sizer(font-size, 11px);
+  @include rem-sizer(11px);
 }
 
 // forms
 button, input {
   @extend .base-font;
   font-weight: 600;
-  @include rem-sizer(font-size, 15px);
+  @include rem-sizer(15px);
 }
 
 label, textarea {

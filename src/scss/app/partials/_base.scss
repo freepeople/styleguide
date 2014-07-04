@@ -49,8 +49,8 @@ pre {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
-  margin-bottom: 1.11111rem;
-  padding: 1.11111rem;
+  padding: 1em;
+  margin: 0em;
   background: #f2f2f2;
   white-space: pre-wrap;       /* css-3 */
   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -61,9 +61,7 @@ pre {
 
 /* code examples */
 .codex {
-  margin-bottom: 5px;
-  /* color: orangered; */
-  color: #ff008a;
+  margin: 16px 0;
 }
 
 .off-canvas-list li label {

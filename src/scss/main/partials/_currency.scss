@@ -1,29 +1,39 @@
-// prices
+/**
+ * Styles for product pricing and currency
+ */
+
+@import "../modules/settings";
+@import "../modules/mixins";
+
 .price {
-  font-family: $sans;
-  font-weight: 400;
+  font-family: $sans-serif;
   letter-spacing: 1px;
   color: $gray;
+}
 
-  &.symbol {
-     font-size: 14px;
-   }
+.price--symbol {
+  @extend .price;
+  @include rem-sizer(14px);
+}
 
-  &.dollars {
-    font-size: 20px;
+.price--dollars {
+  @extend .price;
+  @include rem-sizer(20px);
+}
+
+.price--cents {
+  @extend .price;
+  @include rem-sizer(12px);
+}
+
+.price-markdown {
+  text-decoration: line-through;
+}
+
+.price-light {
+  font: {
+    family: $serif;
+    weight: 200;
   }
-
-  &.cents {
-    font-size: 12px;
-  }
-
-  &.light {
-    font-weight: $light;
-    font-size: 10px;
-    letter-spacing: 0.5px;
-  }
-
-  &.markdown {
-    text-decoration: line-through;
-  }
+  letter-spacing: 0.5px;
 }

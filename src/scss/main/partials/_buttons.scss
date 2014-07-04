@@ -1,3 +1,8 @@
+/**
+ * Styles for buttons
+ */
+
+
 // submit
 .fpSubmit {                      // .wl-ht-button -- class WL uses for this
   padding: 1px;                  // for the hand-touched border
@@ -8,7 +13,7 @@
     display: inline-block;
     color: $white;
     font-size: 11px;             // is 13 AND 14 px in different places on the site, this is what we used for the e-mail in-liner
-    font-family: $sans;
+    font-family: $sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -17,14 +22,14 @@
     vertical-align: middle;
     cursor: pointer;
     margin: 0;
-    padding: 12px !important;
+    padding: $default-spacing;
     background-color: $pink;
     border: solid 1px $white;    // this is NOT USED on the homepage btns, but was used for Open Call / Pura Vida / E-mail in-liner
     width: 100%;
     outline: none;
 
     &:hover {
-      background-color: $pink-hover;
+      background-color: darken($pink, 30%);
     }
 
   }
@@ -36,7 +41,7 @@
   opacity: .5;
   transition: opacity .1s ease;
   background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-  color: $pale-pink;
+  color: $pink;
 
   a:hover {
     opacity: .7;

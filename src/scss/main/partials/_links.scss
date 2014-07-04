@@ -1,7 +1,14 @@
+/**
+ * Enhanced styles for inline links
+ */
+
+@import "../modules/settings";
+@import "../modules/mixins";
+
 a {
   // small version
   &.small {
-    @include rem-sizer(font-size, 10px);
+    @include rem-sizer(10px);
     letter-spacing: 1px;
     text-transform: uppercase;
   }

@@ -10,5 +10,5 @@ gulp.task('sprites', function () {
         algorithm: 'binary-tree'
     }));
     spriteData.img.pipe(gulp.dest('./public/images'));
-    spriteData.css.pipe(gulp.dest('./src/sass/main/modules'));
+    spriteData.css.pipe(gulp.dest('./src/scss/sprites'));
 });

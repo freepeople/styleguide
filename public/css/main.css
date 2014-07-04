@@ -2253,7 +2253,9 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* apply a natural box layout model to all elements */
+/**
+ * Base styles for typography and standard html elements
+ */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2278,7 +2280,7 @@ body {
 }
 
 p {
-  margin: 0 0.25em;
+  margin: 0.5em 0;
 }
 
 a {
@@ -2287,7 +2289,8 @@ a {
 }
 a:hover {
   color: #ff008a;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: solid 1px #ff008a;
 }
 a:visited {
   color: #5c66c5;
@@ -2313,6 +2316,9 @@ button, input {
   font-size: 0.9375rem;
 }
 
+/**
+ * Styles for h1, h2, h3 tags
+ */
 .heading, h1, h2, h3 {
   font-family: "Hoefler Text", Baskerville, "Baskerville old face", Garamond, Times New Roman, serif;
   font-style: italic;
@@ -2325,18 +2331,24 @@ button, input {
 h1 {
   font-size: 17px;
   font-size: 1.0625rem;
+  margin: 16px 0 8px;
 }
 
 h2 {
   font-size: 15px;
   font-size: 0.9375rem;
+  margin: 16px 0 4px;
 }
 
 h3 {
   font-size: 13px;
   font-size: 0.8125rem;
+  margin: 16px 0 2px;
 }
 
+/**
+ * Enhanced styles for inline links
+ */
 a.small {
   font-size: 10px;
   font-size: 0.625rem;
@@ -2345,6 +2357,179 @@ a.small {
 }
 a.serif {
   font-family: "Hoefler Text", Baskerville, "Baskerville old face", Garamond, Times New Roman, serif;
+}
+
+/**
+ * Styles for hand-touched borders and backgrounds
+ */
+/**
+ * Styles for buttons
+ */
+.fpSubmit {
+  padding: 1px;
+  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
+}
+.fpSubmit input.fpSubmitButton {
+  box-sizing: border-box;
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0;
+  padding: 16px;
+  background-color: #ff008a;
+  border: solid 1px white;
+  width: 100%;
+  outline: none;
+}
+.fpSubmit input.fpSubmitButton:hover {
+  background-color: #660037;
+}
+
+.fpSubscribe {
+  opacity: .5;
+  transition: opacity .1s ease;
+  background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
+  color: #ff008a;
+}
+.fpSubscribe a:hover {
+  opacity: .7;
+}
+
+/**
+ * Styles for forms and form field input elements excluding buttons
+ */
+input {
+  border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-50.png);
+  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  border: solid 1px #a5a5a5;
+  border-image-slice: 1 !important;
+  border-image-width: 1 !important;
+  border-image-outset: 0 !important;
+  border-image-repeat: stretch !important;
+  border-radius: 0 !important;
+  color: #333;
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 95%;
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+  background: url(http://static.fpassets.com/resources/_shared/images/spritesheets/icons_2x.png);
+}
+
+label {
+  text-transform: uppercase;
+  color: #3e3e3e;
+  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+}
+label.error {
+  color: #ba0000;
+  padding-left: 20px;
+  background: url(https://www.formstack.com/forms/images/3/validationAlert.png) no-repeat left bottom;
+}
+label.focus {
+  background: white;
+  border: solid 1px #ff008a;
+  border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
+  border-image-slice: 1;
+}
+
+/**
+ * Styles for alert messaging: success, warning, and error
+ */
+.alertMsg, .successMsg, .errorMsg {
+  position: relative;
+  padding: 16px 32px 16px 16px;
+  border: solid 1px #3e3e3e;
+  margin: 16px 0;
+}
+
+.alert--close, .alert--close-white {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  font-size: 18px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e3e3e;
+}
+.alert--close:hover, .alert--close-white:hover {
+  color: #3e3e3e;
+  text-decoration: none;
+  border: 0;
+}
+
+.alert--close-white {
+  color: white;
+}
+.alert--close-white:hover {
+  color: white;
+}
+
+.successMsg {
+  color: white;
+  background: #71dd98;
+  border: solid 1px #71dd98;
+  -webkit-box-shadow: #bebebe 0 2px 3px;
+  -moz-box-shadow: #bebebe 0 2px 3px;
+  box-shadow: #bebebe 0 2px 3px;
+}
+
+.errorMsg {
+  color: white;
+  background: #df3547;
+  border: solid 1px #df3547;
+  -webkit-box-shadow: #bebebe 0 2px 3px;
+  -moz-box-shadow: #bebebe 0 2px 3px;
+  box-shadow: #bebebe 0 2px 3px;
+}
+
+/**
+ * Styles for product pricing and currency
+ */
+.price, .price--symbol, .price--dollars, .price--cents {
+  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #7e7e7e;
+}
+
+.price--symbol {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.price--dollars {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.price--cents {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.price-markdown {
+  text-decoration: line-through;
+}
+
+.price-light {
+  font-family: "Hoefler Text", Baskerville, "Baskerville old face", Garamond, Times New Roman, serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
 }
 
 .group:after {

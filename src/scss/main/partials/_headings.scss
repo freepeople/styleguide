@@ -1,3 +1,7 @@
+/**
+ * Styles for h1, h2, h3 tags
+ */
+
 @import '../modules/settings';
 @import '../modules/mixins';
 
@@ -15,17 +19,20 @@
 // page heading
 h1 {
   @extend .heading;
-  @include rem-sizer(font-size, 17px);
+  @include rem-sizer(17px);
+  margin: $default-spacing 0 $default-spacing/2;
 }
 
 // section heading, breadcrumb
 h2 {
   @extend .heading;
-  @include rem-sizer(font-size, 15px);
+  @include rem-sizer(15px);
+  margin: $default-spacing 0 $default-spacing/4;
 }
 
 // content heading
 h3 {
   @extend .heading;
-  @include rem-sizer(font-size, 13px);
+  @include rem-sizer(13px);
+  margin: $default-spacing 0 $default-spacing/8;
 }

@@ -1,11 +1,17 @@
 @import "foundation/functions";
 @import "settings";
+@import "compass/css3";
 
-@mixin rem-sizer($property, $pixels: $base-font-size) {
+@mixin rem-sizer($pixels: $base-font-size, $property: font-size) {
   #{$property}: $pixels;
   #{$property}: rem-calc($pixels);
 }
 
-@mixin em-sizer($property, $pixels: $base-font-size) {
-  #{$property}: emCalc($pixels);
+@mixin alert-box($color, $bgColor, $shadow: true) {
+  color: $color;
+  background: $bgColor;
+  border: solid 1px $bgColor;
+  @if $shadow {
+    @include box-shadow($light-gray 0 2px 3px);
+  }
 }
