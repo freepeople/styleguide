@@ -78,12 +78,21 @@ caption {
 }
 
 // forms
-button, input {
+button {
   @extend .base-font;
   font-weight: 600;
   @include rem-sizer(15px);
+  outline: none;
 }
 
-label, textarea {
+input, textarea {
+  width: 100%;
+  @extend .base-font;
+  outline: none;
+  margin: 0;
+}
+
+label {
+  display: block;
   @extend .base-font;
 }

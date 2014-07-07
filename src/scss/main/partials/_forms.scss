@@ -2,47 +2,19 @@
  * Styles for forms and form field input elements excluding buttons
  */
 
+@import '../modules/settings';
+@import '../modules/mixins';
 
-input {
-  border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-50.png);
-  font-family: $sans-serif;
-  border: solid 1px #a5a5a5; // failover if HTB doesn't work
-  border-image-slice: 1 !important; // need this, but can consolidate into border-image declaration
-  border-image-width: 1 !important; // probably don't need these next four at all
-  border-image-outset: 0 !important;
-  border-image-repeat: stretch !important;
-  border-radius: 0 !important;
-  color: #333;
-  font-size: 14px;
-  line-height: 18px;
-  max-width: 95%; // for mobile
-  vertical-align: middle;
-}
-
-// icons, checkboxes, radio buttons
-input[type="radio"] {
-  background: url(http://static.fpassets.com/resources/_shared/images/spritesheets/icons_2x.png); // retina, use icons.png for regular
-}
-
-label {
-  text-transform: uppercase;
-  color: $dark-gray;
-  font-family: $sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  line-height: 16px;
-
-  &.error {
-    color: #ba0000;
-    padding-left: 20px;
-    background: url(https://www.formstack.com/forms/images/3/validationAlert.png) no-repeat left bottom; // obviously, I don't think we'll be using FormStack's image
+input, textarea {
+  @include hand-touched-border($light-gray-bg-img, $light-gray);
+  padding: $default-spacing/2;
+  margin: 0 0 1em 0;
+  &:hover {
+    @include hand-touched-border($dark-gray-bg-img, $dark-gray);
+    padding: $default-spacing/2;
   }
-
-  &.focus {
-    background: $white;
-    border: solid 1px $pink;
-    border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-    border-image-slice: 1; // see above
+  &:focus {
+    @include hand-touched-border($pink-bg-img, $pink);
+    padding: $default-spacing/2;
   }
-
 }

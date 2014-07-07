@@ -2266,7 +2266,7 @@ html {
   height: 100%;
 }
 
-.base-font, body, p, a, nav, caption, button, input, label, textarea {
+.base-font, body, p, a, nav, caption, button, input, textarea, label {
   font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-size: 0.8125rem;
@@ -2318,10 +2318,21 @@ caption {
   font-size: 0.6875rem;
 }
 
-button, input {
+button {
   font-weight: 600;
   font-size: 15px;
   font-size: 0.9375rem;
+  outline: none;
+}
+
+input, textarea {
+  width: 100%;
+  outline: none;
+  margin: 0;
+}
+
+label {
+  display: block;
 }
 
 /**
@@ -2370,6 +2381,11 @@ a.serif {
 /**
  * Styles for hand-touched borders and backgrounds
  */
+.skins-content, .dark-gray-border-box, .gray-border-box, .light-gray-border-box, .pink-border-box, .dark-gray-border, .gray-border, .light-gray-border, .pink-border {
+  margin: 16px 0;
+  padding: 16px;
+}
+
 .dark-gray-border-box {
   position: relative;
   margin: 16px 0;
@@ -2443,32 +2459,24 @@ a.serif {
 }
 
 .dark-gray-border {
-  margin: 16px 0;
-  padding: 16px;
   border: #3e3e3e solid 1px;
   border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-75.png") 1 1 repeat;
   background: white;
 }
 
 .gray-border {
-  margin: 16px 0;
-  padding: 16px;
   border: #3e3e3e solid 1px;
   border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-50.png") 1 1 repeat;
   background: white;
 }
 
 .light-gray-border {
-  margin: 16px 0;
-  padding: 16px;
   border: #3e3e3e solid 1px;
   border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-25.png") 1 1 repeat;
   background: white;
 }
 
 .pink-border {
-  margin: 16px 0;
-  padding: 16px;
   border: #3e3e3e solid 1px;
   border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png") 1 1 repeat;
   background: white;
@@ -2525,44 +2533,24 @@ a.serif {
 /**
  * Styles for forms and form field input elements excluding buttons
  */
-input {
-  border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-50.png);
-  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
-  border: solid 1px #a5a5a5;
-  border-image-slice: 1 !important;
-  border-image-width: 1 !important;
-  border-image-outset: 0 !important;
-  border-image-repeat: stretch !important;
-  border-radius: 0 !important;
-  color: #333;
-  font-size: 14px;
-  line-height: 18px;
-  max-width: 95%;
-  vertical-align: middle;
-}
-
-input[type="radio"] {
-  background: url(http://static.fpassets.com/resources/_shared/images/spritesheets/icons_2x.png);
-}
-
-label {
-  text-transform: uppercase;
-  color: #3e3e3e;
-  font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  line-height: 16px;
-}
-label.error {
-  color: #ba0000;
-  padding-left: 20px;
-  background: url(https://www.formstack.com/forms/images/3/validationAlert.png) no-repeat left bottom;
-}
-label.focus {
+input, textarea {
+  border: #bebebe solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-25.png") 1 1 repeat;
   background: white;
-  border: solid 1px #ff008a;
-  border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png);
-  border-image-slice: 1;
+  padding: 8px;
+  margin: 0 0 1em 0;
+}
+input:hover, textarea:hover {
+  border: #3e3e3e solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-75.png") 1 1 repeat;
+  background: white;
+  padding: 8px;
+}
+input:focus, textarea:focus {
+  border: #ff008a solid 1px;
+  border-image: url("//static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png") 1 1 repeat;
+  background: white;
+  padding: 8px;
 }
 
 /**

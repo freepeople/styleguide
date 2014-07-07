@@ -17,7 +17,6 @@ function Scroll() {
     this.trackOffset = '[data-offset]';
     this.hovered = 'hovered';
     this.yOffsets = [];
-    this.lastOffset = 0;
     this.currLoc = 0;
     // initialize
     this.init();
@@ -42,10 +41,10 @@ Scroll.prototype.getOffsets = function() {
  * @memberof module:Scroll#
  * @method highlight
  */
-Scroll.prototype.highlight = function () {
+Scroll.prototype.highlight = function (index) {
     var self = this;
     $('ul#sidebarID li').removeClass(self.hovered);
-    $('ul#sidebarID li').eq(self.lastOffset).addClass(self.hovered);
+    $('ul#sidebarID li').eq(index).addClass(self.hovered);
 }
 
 /**
@@ -75,8 +74,7 @@ Scroll.prototype.updateLastOffset = function () {
     if (self.reachedTheBottom()) {
         index = self.yOffsets.length - 1;
     }
-    self.lastOffset = index;
-    self.highlight();
+    self.highlight(index);
 };
 
 /**
@@ -103,6 +101,4 @@ Scroll.prototype.init = function() {
 };
 
 /** @module Scroll */
-module.exports = function () {
-    return Scroll();
-};
+module.exports = new Scroll();

@@ -17,8 +17,6 @@
 }
 
 @mixin hand-touched-border($img: $dark-gray-bg-img, $color: $dark-gray, $width: 1, $height: 1, $repeat: repeat) {
-  margin: $default-spacing 0;
-  padding: $default-spacing;
   border: $color solid #{$width}px;
   border-image: url($img) $width $height $repeat;
   background: $white;

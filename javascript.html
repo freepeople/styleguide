@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+    <meta charset="UTF-8">
+    <title>Free People Interactive Style Guide</title>
+    <link rel="icon" type="image/x-icon" href="http://www.freepeople.com/favicon.ico">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/app.css">
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&amp;skin=desert"></script>
+    <script src="public/js/modernizr.js"></script>
+</head>
+<body>
+<!-- Off-screen nav: mobile -->
+<nav>
+    <div class="small-12 small-centered medium-3 large-3 columns sidebar-app fixed">
+        <div class="show-for-small-only"></div>
+        <ul id="sidebarID">
+            <li class="hovered">
+                <a href="#typography">Typography</a>
+            </li>
+            <li>
+                <a href="#headings">Headings</a>
+            </li>
+            <li>
+                <a href="#links">Links</a>
+            </li>
+            <li>
+                <a href="#skins">Skins</a>
+            </li>
+            <li>
+                <a href="#buttons">Buttons</a>
+            </li>
+            <li>
+                <a href="#forms">Forms</a>
+            </li>
+            <li>
+                <a href="#alerts">Alerts</a>
+            </li>
+            <li>
+                <a href="#currency">Currency</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <!-- TOP NAV -->
+    <div class="row">
+        <!-- LOGO -->
+        <div class="small-5 columns">
+            <a href="#">
+                <div class="logo"></div>
+            </a>
+        </div>
+        <!-- DESKTOP NAV -->
+        <nav>
+            <div class="small-7 columns">
+                <div class="top-nav right desktop-menu show-for-medium-up">
+                    <a href="index.html" style="font-size:13px;">CSS</a>
+                    <a href="javascript.html">JS</a>
+                    <a href="components.html">Components</a>
+                </div>
+                <!-- BURGER DISPLAYS ON SMALL (TABLET / SMARTPHONE) -->
+                <div class="right mobile-menu show-for-small-only">
+                    <div class="top-nav">
+                        <a href="#" class="box-shadow-menu"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- CONTENT BODY -->
+<div class="row">
+    <!-- CONTENT BODY -->
+    <div class="small-12 medium-9 large-9 columns content">
+
+        <!-- DROPDOWNS -->
+        <h1 id="dropdowns" data-offset>Dropdowns</h1>
+        <div class="dropdowns group margin-bottom">
+            <div class="dropdown floatLeft">
+                <a class="dropdown-trigger " data-toggle="dropdown" href="#">
+                    Dropdown trigger
+                </a>
+                <div class="dropdown-container">
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="#">Hello There</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#">To My</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                        </li>
+                        <li>
+                            <a href="#">Hello There</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#">To My</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                        </li>
+                        <li>
+                            <a href="#">Hello There</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#">To My</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown floatLeft second">
+                <a class="dropdown-trigger " data-toggle="dropdown" href="#">
+                    Dropdown trigger
+                </a>
+                <div class="dropdown-container">
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="#">Hello There</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#">To My</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                        </li>
+                        <li>
+                            <a href="#">Hello There</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#">To My</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                        </li>
+                        <li>
+                            <a href="#">Hello There</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#">To My</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="codex"><strong>Code:</strong></div>
+        <pre class="prettyprint lang-html">
+        &lt;div class=&quot;dropdown&quot;&gt;
+        &lt;a class=&quot;dropdown-trigger&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;
+        Dropdown trigger
+        &lt;/a&gt;
+        &lt;div class=&quot;dropdown-container&quot;&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;#&quot;&gt;Hello There&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        </pre>
+
+        </div>
+    </div>
+
+    </div>
+
+<script src="public/js/vendor-bundle.js"></script>
+<script src="public/js/app.js"></script>
+</body>
+</html>

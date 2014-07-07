@@ -1,3 +1,5 @@
+@import '../../main/modules/settings';
+
 .column.small-centered, .columns.small-centered {
   position: fixed;
 }
@@ -18,7 +20,7 @@
 }
 
 .content {
-  margin: 20px 0 20px 0;
+  margin: -2em 0 2em 0;
 }
 
 .sidebar-app {
@@ -44,6 +46,13 @@
   }
 }
 
+.guide-section {
+  margin: 5em 0;
+  h2[data-offset] {
+    font-size: 2em;
+  }
+}
+
 /* code sections */
 pre {
   border-style: solid;
@@ -63,7 +72,6 @@ pre {
 .codex {
   margin: 16px 0;
 }
-
 .off-canvas-list li label {
   color: #ff008a !important;
 }
