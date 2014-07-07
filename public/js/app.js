@@ -60,27 +60,38 @@ Scroll.prototype.highlight = function () {
 /**
  * @public
  * @memberof module:Scroll#
+ * @method checkOffsetBoundary
+ */
+Scroll.prototype.checkOffsetBoundary = function (offset) {
+    var len = this.yOffsets.length;
+    if (offset === len) {
+        offset = len - 1;
+    } else if (offset < 0) {
+        offset = 0;
+    }
+    return offset;
+};
+
+/**
+ * @public
+ * @memberof module:Scroll#
  * @method compareOffsets
  */
 Scroll.prototype.compareOffsets = function() {
     var self = this;
-    var marginOffset =  parseInt($(self.trackOffset).eq(self.lastOffset).css('margin-top'));
-    console.log(self.direction);
+    var next = 0;
     if (self.direction === 'down') {
-        if (self.currLoc > self.yOffsets[self.lastOffset]  + marginOffset) {
-            self.lastOffset += 1;
-            if (self.lastOffset === self.yOffsets.length) {
-                self.lastOffset = self.yOffsets.length - 1;
-            }
+        // down
+        next = self.checkOffsetBoundary(self.lastOffset + 1);
+        if (self.currLoc >= self.yOffsets[next]) {
+            self.lastOffset = next;
             self.highlight();
         }
     } else {
         // up
-        if (self.currLoc < self.yOffsets[self.lastOffset] - marginOffset) {
-            self.lastOffset -= 1;
-            if (self.lastOffset < 0) {
-                self.lastOffset = 0;
-            }
+        next = self.checkOffsetBoundary(self.lastOffset - 1);
+        if (self.currLoc <= self.yOffsets[self.lastOffset]) {
+            self.lastOffset = next;
             self.highlight();
         }
     }
@@ -93,13 +104,13 @@ Scroll.prototype.compareOffsets = function() {
  */
 Scroll.prototype.calcDirection = function () {
     var self = this;
-    var $window = $(window);
-    if ($window.scrollTop() >= self.currLoc) {
+    var curY = Math.floor($(window).scrollTop());
+    if (curY >= self.currLoc) {
         self.direction = 'down';
     } else {
         self.direction = 'up';
     }
-    self.currLoc = $window.scrollTop();
+    self.currLoc = curY;
     self.compareOffsets();
 };
 
@@ -111,7 +122,7 @@ Scroll.prototype.calcDirection = function () {
 Scroll.prototype.bindEvents = function() {
     var self = this;
     $(window).on('scroll', function () {
-        self.calcDirection()
+        self.calcDirection();
     });
     $('ul#sidebarID li a').on('click', function () {
         self.calcDirection();
