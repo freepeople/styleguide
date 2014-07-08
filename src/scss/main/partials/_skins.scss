@@ -2,8 +2,8 @@
  * Styles for hand-touched borders and backgrounds
  */
 
-@import "../modules/settings";
-@import "../modules/mixins";
+@import "../helpers/settings";
+@import "../helpers/mixins";
 
 .skins-content {
   margin: $default-spacing 0;

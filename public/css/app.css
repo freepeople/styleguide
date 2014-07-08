@@ -2,50 +2,18 @@
   position: fixed;
 }
 
-.top-nav {
-  margin: 20px 0 20px 0;
-}
-
-.top-nav a {
-  margin-left: 20px;
-}
-
-.logo {
-  margin: 10px 0 10px 0;
-  width: 149px;
-  height: 32px;
-  background: url("//static.fpassets.com/content/reskins/2014/05-may/MayReskin-LogoFooter.png") no-repeat 0 13px;
-}
-
 .content {
-  margin: -2em 0 2em 0;
+  margin: -2em 0 2em;
 }
 
 .sidebar-app {
-  top: 10%;
-  left: 80%;
-  padding-right: 20px;
-  width: 10rem;
-}
-
-/* burger icon */
-.box-shadow-menu {
-  position: relative;
-  padding-left: 1.25em;
-}
-.box-shadow-menu:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.25em;
-  width: 1em;
-  height: 0.15em;
-  background: black;
-  box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
+  top: 4.6875rem;
+  right: 10%;
+  width: 9.75rem;
 }
 
 .guide-section {
-  margin: 5em 0;
+  margin: 4.6875rem 0;
 }
 .guide-section h2[data-offset] {
   font-size: 2em;
@@ -76,73 +44,56 @@ pre {
   margin: 16px 0;
 }
 
-.off-canvas-list li label {
-  color: #ff008a !important;
-}
-
 /* sidebar list styles */
-.sidebar-app {
-  /* center sidebar when in mobile */
-}
 .sidebar-app ul {
   list-style-type: none;
   text-align: right;
   margin-top: 0;
-  /* text-transform: uppercase; */
 }
 .sidebar-app ul li.hovered {
   border-left: 2px solid #ff008a;
 }
-@media (max-width: 640px) {
-  .sidebar-app .sidebar-app {
-    display: none;
-  }
+
+header[role=main] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background: white;
+  background: rgba(255, 255, 255, 0.9);
 }
-.sidebar-app .main-section p {
-  margin-left: 10px;
-  margin-right: 10px;
+
+.site-header {
+  -webkit-box-shadow: 0 1px 6px #bebebe;
+  -moz-box-shadow: 0 1px 6px #bebebe;
+  box-shadow: 0 1px 6px #bebebe;
+  height: 48px;
 }
-.sidebar-app .main-section h4 {
-  margin: 0 10px 0 10px;
+
+.logo {
+  width: 149px;
+  height: 32px;
+  background: url("//static.fpassets.com/content/reskins/2014/05-may/MayReskin-LogoFooter.png") no-repeat 0 16px;
 }
-.sidebar-app ul.off-canvas-list li a:hover {
-  color: white;
+
+/* burger icon */
+.box-shadow-menu {
+  font-size: 1.5em;
+  line-height: 2em;
 }
-.sidebar-app div.right.mobile-menu.show-for-small-only {
-  display: none !important;
+.box-shadow-menu:hover {
+  border: 0;
 }
-.sidebar-app ul.off-canvas-list li label {
-  padding: 0.1rem 0.9375rem;
-  border-top: none !important;
+
+.top-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.sidebar-app .main-section h1 {
-  margin: 20px 10px 10px 10px;
-}
-.sidebar-app .main-section .codex {
-  margin-left: 10px;
-}
-@media screen and (max-width: 640px) {
-  .sidebar-app .logo {
-    margin-left: 98%;
-  }
-  .sidebar-app .medium-9 {
-    display: none !important;
-  }
-}
-@media screen and (max-width: 500px) {
-  .sidebar-app .logo {
-    margin-left: 96%;
-  }
-}
-@media screen and (max-width: 400px) {
-  .sidebar-app .logo {
-    margin-left: 85%;
-  }
-}
-.sidebar-app .right-off-canvas-menu {
-  -webkit-overflow-scrolling: touch;
-}
-.sidebar-app aside.right-off-canvas-menu.move-left {
-  left: 250px;
-  transition: 1s;
+.top-nav > li {
+  display: inline-block;
+  margin: 8px 16px;
+  padding: 0;
+  font-size: 1.5em;
 }

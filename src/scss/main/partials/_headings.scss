@@ -2,8 +2,8 @@
  * Styles for h1, h2, h3 tags
  */
 
-@import '../modules/settings';
-@import '../modules/mixins';
+@import '../helpers/settings';
+@import '../helpers/mixins';
 
 .heading {
   font: {

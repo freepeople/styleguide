@@ -5,6 +5,7 @@ gulp.task(
     function() {
         // execute watchers
         gulp.watch('src/scss/**/*.scss', ['compass']);
+        gulp.watch('src/scripts/modules/**/*.scss', ['compass']);
         gulp.watch('src/scripts/**/*.js', ['browserify']);
     }
 );

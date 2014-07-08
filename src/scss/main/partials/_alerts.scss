@@ -2,8 +2,8 @@
  * Styles for alert messaging: success, warning, and error
  */
 
-@import "../modules/settings";
-@import "../modules/mixins";
+@import "../helpers/settings";
+@import "../helpers/mixins";
 
 .alertMsg {
   position: relative;

@@ -2,8 +2,8 @@
  * Styles for forms and form field input elements excluding buttons
  */
 
-@import '../modules/settings';
-@import '../modules/mixins';
+@import '../helpers/settings';
+@import '../helpers/mixins';
 
 input, textarea {
   @include hand-touched-border($light-gray-bg-img, $light-gray);

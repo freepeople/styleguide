@@ -3,9 +3,9 @@
  */
 
 @import "compass/css3/box-sizing";
-@import "../modules/settings";
-@import "../modules/functions";
-@import "../modules/mixins";
+@import "../helpers/settings";
+@import "../helpers/functions";
+@import "../helpers/mixins";
 
 // apply a natural box layout model to all elements
 *, *:before, *:after {
@@ -36,6 +36,7 @@ html {
 body {
   @extend .base-font;
   height: 100%;
+  margin-top: 5em;
 }
 
 p {
@@ -55,10 +56,12 @@ a {
     border-bottom: solid 1px $pink;
   }
   // visited
+  /*
   &:visited {
     color: $indigo;
     text-decoration: none;
   }
+  */
 }
 
 // navigation

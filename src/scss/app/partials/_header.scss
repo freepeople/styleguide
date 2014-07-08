@@ -1,0 +1,35 @@
+@import "main/helpers/settings";
+@import "main/helpers/mixins";
+@import "../helpers/settings";
+@import "compass/css3";
+
+header[role=main] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background: $white;
+  background: rgba(255,255,255, .9);
+}
+
+.site-header {
+  // TODO: replace with border-image and stretch to 100%
+  @include box-shadow(0 1px 6px $light-gray);
+  height: $default-spacing * 3;
+}
+
+.logo {
+  width: 149px;
+  height: 32px;
+  background: url($logo-img) no-repeat 0 $default-spacing;
+}
+
+/* burger icon */
+.box-shadow-menu {
+  font-size: 1.5em;
+  line-height: 2em;
+  &:hover {
+    border: 0;
+  }
+}

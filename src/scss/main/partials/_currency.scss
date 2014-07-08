@@ -2,8 +2,8 @@
  * Styles for product pricing and currency
  */
 
-@import "../modules/settings";
-@import "../modules/mixins";
+@import "../helpers/settings";
+@import "../helpers/mixins";
 
 .price {
   font-family: $sans-serif;

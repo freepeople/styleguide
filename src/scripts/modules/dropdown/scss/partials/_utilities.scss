@@ -1,3 +1,5 @@
+@import "main/helpers/settings";
+
 .group {
     &:after {
         content: "";
@@ -7,34 +9,33 @@
 }
 
 .margin-top-small {
-    margin-top: 5px;
+    margin-top: $default-spacing/4;
 }
 
 .margin-right-small {
-    margin-right: 5px;
+    margin-right: $default-spacing/4;
 }
 
 .margin-bottom-small {
-    margin-bottom: 5px;
+    margin-bottom: $default-spacing/4;
 }
 
 .margin-left-small {
-    margin-left: 5px;
+    margin-left: $default-spacing/4;
 }
 
-
 .margin-top {
-    margin-top: 15px;
+    margin-top: $default-spacing;
 }
 
 .margin-right {
-    margin-right: 15px;
+    margin-right: $default-spacing;
 }
 
 .margin-bottom {
-    margin-bottom: 15px;
+    margin-bottom: $default-spacing;
 }
 
 .margin-left {
-    margin-left: 15px;
+    margin-left: $default-spacing;
 }

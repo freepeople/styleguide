@@ -1,6 +1,6 @@
 'use strict';
-var gulp = require('gulp'),
-    compass = require('gulp-compass');
+var gulp = require('gulp');
+var compass = require('gulp-compass');
 
 gulp.task('compass', function () {
     gulp.src('./src/scss/**/*.scss')
