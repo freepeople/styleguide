@@ -1,9 +1,8 @@
 'use strict';
-var gulp = require('gulp'),
-    watchify = require('watchify'),
-    source = require('vinyl-source-stream'),
-    libs = require('./vendor').libs;
-
+var gulp = require('gulp');
+var watchify = require('watchify');
+var source = require('vinyl-source-stream');
+var libs = require('./vendor').libs;
 
 gulp.task('watch', function() {
     var bundleStream = watchify('./src/scripts/app.js');

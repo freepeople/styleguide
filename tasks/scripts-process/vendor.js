@@ -12,7 +12,9 @@ gulp.task('vendor', ['modernizr'], function() {
     var bundleStream = browserify();
     bundleStream
         .require(libs)
-        .bundle({debug: true})
+        .bundle({
+            debug: true
+        })
         .pipe(source('vendor-bundle.js'))
         .pipe(buffer())
         .pipe(uglify())

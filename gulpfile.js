@@ -1,10 +1,9 @@
 'use strict';
 
-var fs = require('fs');
-var dir = './tasks/';
-var tasks = fs.readdirSync(dir);
+var glob = require('glob');
+var filepaths = glob.sync('./tasks/**/*.js');
 
 // load gulp tasks from directory
-tasks.forEach(function (task) {
-    require(dir + task);
+filepaths.forEach(function(filepath) {
+    require(filepath);
 });

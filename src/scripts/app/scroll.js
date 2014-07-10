@@ -41,18 +41,18 @@ Scroll.prototype.getOffsets = function() {
  * @memberof module:Scroll#
  * @method highlight
  */
-Scroll.prototype.highlight = function (index) {
+Scroll.prototype.highlight = function(index) {
     var self = this;
     $('ul#sidebarID li').removeClass(self.hovered);
     $('ul#sidebarID li').eq(index).addClass(self.hovered);
-}
+};
 
 /**
  * @public
  * @memberof module:Scroll#
  * @method reachedTheBottom
  */
-Scroll.prototype.reachedTheBottom = function () {
+Scroll.prototype.reachedTheBottom = function() {
     return ($(window).scrollTop() + $(window).height() === $(document).height());
 };
 
@@ -61,7 +61,7 @@ Scroll.prototype.reachedTheBottom = function () {
  * @memberof module:Scroll#
  * @method updateLastOffset
  */
-Scroll.prototype.updateLastOffset = function () {
+Scroll.prototype.updateLastOffset = function() {
     // check scroll top
     var self = this;
     var index = 0;
@@ -84,7 +84,7 @@ Scroll.prototype.updateLastOffset = function () {
  */
 Scroll.prototype.bindEvents = function() {
     var self = this;
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         self.currLoc = Math.floor($(this).scrollTop());
         self.updateLastOffset();
     });
