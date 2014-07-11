@@ -1,5 +1,5 @@
 ### Free People Digital Style Guide
-[![Build Status](https://drone.io/github.com/freepeople/styleguide/status.png)](https://drone.io/github.com/freepeople/styleguide/latest)
+[![Build Status](https://travis-ci.org/freepeople/styleguide.svg?branch=master)](https://travis-ci.org/freepeople/styleguide)
 
 Sneak peak [here](https://rawgit.com/freepeople/styleguide/master/index.html)
 
