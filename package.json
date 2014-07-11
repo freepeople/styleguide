@@ -43,7 +43,7 @@
     },
     "scripts": {
         "install": "napa",
-        "test": "node test/*.js | tap-spec",
+        "test": "tape test/**/*.js | tap-spec",
         "pretest": "gulp lint"
     },
     "napa": {

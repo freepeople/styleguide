@@ -4,7 +4,7 @@ var test = require('tape');
 var Browser = require('zombie');
 
 var browser = new Browser({
-    debug: false
+    debug: true
 });
 
 var dropDownExists = function() {
