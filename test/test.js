@@ -4,7 +4,7 @@ var test = require('tape');
 var Browser = require('zombie');
 
 var browser = new Browser({
-    debug: true
+    debug: false
 });
 
 var dropDownExists = function() {
@@ -15,18 +15,21 @@ var dropDownExists = function() {
 };
 
 var dropDownWorks = function() {
+    var isOpened = '.dropdown.is-opened';
+    var item = '.dropdown-menu a:first-child';
+
     test('dropdown menu', function(t) {
         t.plan(4);
-        t.false(browser.query('.dropdown.is-opened'), 'hidden');
+        t.false(browser.query(isOpened), 'hidden');
         browser
             .clickLink('.dropdown-trigger')
             .then(function() {
-                t.true(browser.query('.dropdown.is-opened'), 'opened');
-                return browser.clickLink('.dropdown-menu a:first-child');
+                t.true(browser.query(isOpened), 'opened');
+                return browser.clickLink(item);
             })
             .then(function() {
-                t.equal(browser.query('.dropdown-trigger').textContent, 'Hello There', 'first dropdown item selected');
-                t.false(browser.query('.dropdown.is-opened'), 'closed');
+                t.equal(browser.query('.dropdown-trigger').textContent, browser.query(item).textContent, 'first dropdown item selected');
+                t.false(browser.query(isOpened), 'closed');
             });
     });
 };

@@ -15,6 +15,7 @@ Dropdown.prototype = {
     toggleMenu: function(e) {
         e.preventDefault();
         e.stopPropagation();
+        this.closeMenu();
         var $parent = this.parent;
         var isOpened = $parent.hasClass('is-opened');
         if (!isOpened) {
@@ -63,9 +64,10 @@ Dropdown.prototype = {
     },
     closeMenu: function() {
         if (!this.parent.hasClass('is-opened')) {
-            return;
+            return this.parent.siblings().removeClass('is-opened');
         }
         this.parent.removeClass('is-opened');
+
     },
     bindEvents: function() {
         var $doc = $(document);
