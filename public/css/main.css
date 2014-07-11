@@ -2557,58 +2557,6 @@ input:focus, textarea:focus {
 }
 
 /**
- * Styles for alert messaging: success, warning, and error
- */
-.alertMsg, .successMsg, .errorMsg {
-  position: relative;
-  padding: 16px 32px 16px 16px;
-  border: solid 1px #3e3e3e;
-  margin: 16px 0;
-}
-
-.alert--close, .alert--close-white {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  z-index: 2;
-  font-size: 18px;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #3e3e3e;
-}
-.alert--close:hover, .alert--close-white:hover {
-  color: #3e3e3e;
-  text-decoration: none;
-  border: 0;
-}
-
-.alert--close-white {
-  color: white;
-}
-.alert--close-white:hover {
-  color: white;
-}
-
-.successMsg {
-  color: white;
-  background: #71dd98;
-  border: solid 1px #71dd98;
-  -webkit-box-shadow: #bebebe 0 2px 3px;
-  -moz-box-shadow: #bebebe 0 2px 3px;
-  box-shadow: #bebebe 0 2px 3px;
-}
-
-.errorMsg {
-  color: white;
-  background: #df3547;
-  border: solid 1px #df3547;
-  -webkit-box-shadow: #bebebe 0 2px 3px;
-  -moz-box-shadow: #bebebe 0 2px 3px;
-  box-shadow: #bebebe 0 2px 3px;
-}
-
-/**
  * Styles for product pricing and currency
  */
 .price, .price--symbol, .price--dollars, .price--cents {
@@ -2766,4 +2714,56 @@ input:focus, textarea:focus {
 
 .floatLeft {
   float: left;
+}
+
+/**
+ * Styles for alert messaging: success, warning, and error
+ */
+.alertMsg, .successMsg, .errorMsg {
+  position: relative;
+  padding: 16px 32px 16px 16px;
+  border: solid 1px #3e3e3e;
+  margin: 16px 0;
+}
+
+.alert--close, .alert--close-white {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  font-size: 18px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e3e3e;
+}
+.alert--close:hover, .alert--close-white:hover {
+  color: #3e3e3e;
+  text-decoration: none;
+  border: 0;
+}
+
+.alert--close-white {
+  color: white;
+}
+.alert--close-white:hover {
+  color: white;
+}
+
+.successMsg {
+  color: white;
+  background: #71dd98;
+  border: solid 1px #71dd98;
+  -webkit-box-shadow: #bebebe 0 2px 3px;
+  -moz-box-shadow: #bebebe 0 2px 3px;
+  box-shadow: #bebebe 0 2px 3px;
+}
+
+.errorMsg {
+  color: white;
+  background: #df3547;
+  border: solid 1px #df3547;
+  -webkit-box-shadow: #bebebe 0 2px 3px;
+  -moz-box-shadow: #bebebe 0 2px 3px;
+  box-shadow: #bebebe 0 2px 3px;
 }
