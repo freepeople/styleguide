@@ -5,7 +5,17 @@
 require('./app/scroll');
 // dropdown module
 require('./modules/dropdown/dropdown');
-},{"./app/scroll":2,"./modules/dropdown/dropdown":3}],2:[function(require,module,exports){
+
+// highlight.js
+require('./app/highlight.code.js');
+},{"./app/highlight.code.js":2,"./app/scroll":3,"./modules/dropdown/dropdown":4}],2:[function(require,module,exports){
+'use strict';
+var $ = require('jquery');
+
+$("pre[class|='lang']").each(function(i, block) {
+    hljs.highlightBlock(block);
+});
+},{"jquery":"HlZQrA"}],3:[function(require,module,exports){
 'use strict';
 
 var $ = require('jquery');
@@ -110,7 +120,7 @@ Scroll.prototype.init = function() {
 
 /** @module Scroll */
 module.exports = new Scroll();
-},{"jquery":"HlZQrA","lodash":"K2RcUv"}],3:[function(require,module,exports){
+},{"jquery":"HlZQrA","lodash":"K2RcUv"}],4:[function(require,module,exports){
 'use strict';
 
 var $ = require('jquery');
