@@ -1,0 +1,22 @@
+---
+layout: category
+title: Home
+---
+<div class="column fourth">
+{% for post in site.categories['grid'] %}
+  <div class="proj-block">
+    <a href="{{ post.url }}">
+    <ul class="sub-nav">
+        <li>
+              <em><h4 class="project-name">{{ post.title }}</h4></em>
+        </li>
+      </ul>
+    </a>
+  </div>
+
+{% endfor %}
+</div>
+
+<div class="column three-fourths">
+      {{ content }}
+</div>

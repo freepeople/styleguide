@@ -1,0 +1,40 @@
+/* Free People Brand Colors */
+$fp_pink: #ff008a;
+$fp_darkPink: #c8006c;
+$fp_tan: #faf6f3;
+$fp_darkTan: #e5dad1;
+
+/* FPMe Brand Colors */
+$fp_meMain: #6a607b;
+$fp_meSecondary: #484350;
+$fp_meAccent: #659d9c;
+
+/* Neutral Colors */
+$fp_darkGrey: #333333;
+$fp_midGrey: #7e7e7e;
+$fp_lightGrey: #bebebe;
+$fp_offWhite: #f8f8f8;
+$black: #000000;
+$white: #ffffff;
+
+@function rem($target, $context: 16) {
+	@return ($target / $context) * 1rem;
+}
+
+@function letter-spacing($tracking, $embase: 1000) {
+	@return ($tracking / $embase) * 1em;
+}
+
+@mixin btn-transition($transition: all .15s ease-in-out) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+
+@mixin transition($transition: all .35s ease-in-out) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}

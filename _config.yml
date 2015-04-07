@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:         true
+
+# Permalinks
+permalink:         pretty
+
+# Setup
+title:            Free People Style Guide
+tagline:          'Free People Style Guide'
+description:      'Free People Style Guide'
+url:              
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Free People Style Guide'
+  url:            Free People Style Guide
+
+# Custom vars
+version:          1.0.0
+
+github:

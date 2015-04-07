@@ -1,0 +1,69 @@
+$serif: 'Hoefler Text', Georgia, serif;
+$sans-serif: 'Avenir Next', arial, helvetiva, sans-serif;
+
+
+h1 {
+	font: rem(36) $serif;
+	color: $fp_darkGrey;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font: rem(28) $serif;
+	color: $fp_darkGrey;
+	font-style: italic;
+}
+
+h3 {
+	font: rem(21) $sans-serif;
+	color: $fp_darkGrey;
+	font-weight: 600;
+}
+
+h4 {
+	font: rem(16) $sans-serif;
+	color: $fp_darkGrey;
+}
+
+h5, label {
+	font: rem(12) $sans-serif;
+	color: $fp_midGrey;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: letter-spacing(250);
+}
+
+label {
+	margin-bottom: 16px;
+}
+
+h6 {
+	font: rem(12) $sans-serif;
+	font-weight: 600;
+}
+
+p {
+	font: $sans-serif;
+}
+
+.btn, input {
+	font: 1.6rem $sans-serif;
+}
+
+.caption {
+	font: 1.3rem $sans-serif;
+	color: $fp_midGrey;
+}
+
+a {
+	color: $fp_pink;
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+	&:visited {
+		color: $fp_darkPink;
+	}
+}
+

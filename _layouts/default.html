@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <div class="container">
+    <header>
+        <div class="column full sg-nav">
+          <a href="{{ site.baseurl }}" title="Home">
+              <img src="/a/i/fp-logo.svg" fill="#" class="hp-logo"/>
+          </a>
+          <p>
+            <ul class="hp-nav">
+              <li><a href="/globals/index.html">Globals</a></li>
+              <li><a href="/grid/index.html">Grid System</a></li>
+              <li><a href="/icons/index.html">Icons</a></li>
+
+            </ul>
+          </p>
+        </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+label {  
+	display: inline-block;  
+	cursor: pointer;
+}  
+
+input[type="text"] {
+	display: block;
+	margin-bottom: 32px;
+	padding-left: 20px;
+	height: 60px;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid $fp_lightGrey;
+	font: rem(21) $sans-serif;
+	color: $fp_darkGrey;
+	appearance: none;
+	box-shadow: none;
+	&:focus {
+		border: 2px solid $fp_pink;
+		outline: none;
+	}
+}
+
+placeholder {
+	color: $fp_lightGrey;
+}
+::-webkit-input-placeholder {
+	color: $fp_lightGrey;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: $fp_lightGrey;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: $fp_lightGrey;
+}
+:-ms-input-placeholder {  
+	color: $fp_lightGrey;
+}
+
+input[type=radio] + label {  
+	font: rem(21) $sans-serif;
+	color: $fp_darkGrey;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+input[type=checkbox] + label {
+	font: rem(16) $sans-serif;
+	color: $fp_darkGrey;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+	display:none;
+}
+
+label.radio:before {  
+	content: "";
+	float: left;  
+	display: block;
+	width: 30px;  
+	height: 30px;
+	border-radius: 15px;
+	margin-top: -2px;
+	margin-right: 16px;
+	left: 0;
+	background-color: $white; 
+	border: 1px solid $fp_midGrey;
+}
+
+input[type=radio]:checked + label:before {
+	background: url(/a/i/checkmark-active.svg) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: 30px 30px; 
+	border: none;
+}
+
+input[type=radio]:checked + label {  
+	color: $fp_pink;
+	font-weight: 700;
+}  
+
+
+label.checkbox:before {  
+	content: "";
+	float: left;  
+	display: inline-block;
+	width: 30px;  
+	height: 30px;
+	margin-top: -5px;
+	margin-right: 16px;
+	left: 0;
+	background-color: $white; 
+	border: 1px solid $fp_midGrey;
+}
+
+input[type=checkbox]:checked + label:before {
+	background: url(/a/i/checkbox-active.svg) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: 30px 30px; 
+	border: 1px solid $fp_pink;
+}
+
+input[type=checkbox]:checked + label {  
+}  
+
+.dropdown select {
+	border: 1px solid $fp_lightGrey;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: $white url(/a/i/dd-arrow.svg) no-repeat 92.5% center;
+	height: 60px;
+	width: 50%;
+	text-indent: 0.01px;
+	text-overflow: "";
+	font: rem(21) $sans-serif;
+	color: $fp_darkGrey;
+	border-radius: 4px;
+	padding-left: 20px;
+	box-shadow: none;
+	&:focus {
+		border: 1px solid $fp_pink;
+		outline: none;
+	}
+}

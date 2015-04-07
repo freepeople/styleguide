@@ -1,0 +1,118 @@
+html {
+	overflow-y: scroll;
+}
+
+
+body {
+	background-color: $white;
+	-webkit-font-smoothing:antialiased;
+	font-family: 'Georgia', serif;
+}
+
+img {
+	border-radius: 0;
+}
+
+p {
+	font: 18px $sans-serif;
+}
+
+a {
+}
+
+a:hover,
+a:focus {
+	color: $fp_pink;
+	padding-bottom:18px;
+	border-bottom: 2px solid $fp_pink;
+}
+
+ul {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-padding-start: 0px;
+}
+ul {
+	margin-bottom: 1em;
+	li {
+		@extend p;
+		margin-bottom: .25em;
+	}
+}
+
+pre {
+	margin-top: .25em;
+	padding-bottom: 0;
+}
+
+//Navigation styles
+.hp-logo {
+	width: 238px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	fill: $fp_pink;
+}
+
+ul.hp-nav {
+	margin-top: 2em;
+	text-align: center;
+	list-style: none;
+	p {
+		font: .875rem $serif;
+		text-transform: uppercase;
+	}
+	li {
+		display: inline-block;
+		margin: 0 2em;
+		a {
+		}
+	}
+}
+
+.sg-nav {
+	padding-bottom: 0;
+	border-bottom: 1px solid $fp_lightGrey;
+}
+
+.sub-nav {
+	margin-top: 2em;
+	ul {
+		list-style: none;
+		p {
+			font: 12pt $sans-serif;
+		}
+		a:hover,
+		a:focus {
+			border-bottom:none;
+		}
+	}
+}
+
+.style-content {
+	margin-top: 2em;
+}
+
+
+// Text Styles
+.sans-serif-example {
+	p {
+		font: 150% $sans-serif;
+	}
+}
+
+.serif-example {
+	p {
+		font: 150% $serif;
+	}
+}
+
+.lower-case {
+	text-transform: lowercase;
+}
+
+.freecall {
+	color: $fp_pink;
+}
