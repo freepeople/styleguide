@@ -6,18 +6,16 @@ highlighter:         true
 permalink:         pretty
 
 # Setup
-title:            Free People Style Guide
-tagline:          'Free People Style Guide'
-description:      'Free People Style Guide'
-url:              
+title:            Anthony Nguyen
+tagline:          ''
+description:      'Anthony Nguyen - Interactive UI & UX Designer'
+url:              http://antnguyen.com
 baseurl:          '/'
 paginate:         5
 
 author:
-  name:           'Free People Style Guide'
-  url:            Free People Style Guide
+  name:           'Anthony Nguyen'
+  url:            https://twitter.com/atn1988
 
 # Custom vars
 version:          1.0.0
-
-github:

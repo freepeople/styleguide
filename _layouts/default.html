@@ -3,28 +3,29 @@
 
 {% include head.html %}
 
-<body>
-  <div class="container">
-    <header>
-        <div class="column full sg-nav">
-          <a href="{{ site.baseurl }}" title="Home">
-              <img src="/a/i/fp-logo.svg" fill="#" class="hp-logo"/>
-          </a>
-          <p>
-            <ul class="hp-nav">
-              <li><a href="/globals/index.html">Globals</a></li>
-              <li><a href="/grid/index.html">Grid System</a></li>
-              <li><a href="/icons/index.html">Icons</a></li>
+<div class="container" id="header">
+	<div class="row">
+		<div class="large-12 columns site-logo">
+			<center><a href="{{ site.baseurl }}"><img src="/a/i/logo/logo.svg" alt=""></a></center>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12 columns">
+			<ul id="navigation">
+				<li><p><a href="/about/">About</a></p></li>
+				<li><p><a href="/blog">Thoughts</a></p></li>
+				<li><p><a href="https://dl.dropboxusercontent.com/u/5982384/anguyen_resume.pdf" target="_b">Resume</a></p></li>
+			</ul>
+		</div>
+	</div>
+</div>
 
-            </ul>
-          </p>
-        </div>
-    </header>
 
-    <main>
-      {{ content }}
-    </main>
-  </div>
-
+<div class="content">
+		{{ content }}
+</div>
+<div id="footer">
+	
+</div>
 </body>
 </html>

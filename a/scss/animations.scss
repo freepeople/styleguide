@@ -1,0 +1,60 @@
+p > a {
+	position: relative;
+	color: $link-color;
+	text-decoration: none;
+}
+
+p > a:hover {
+	color: #000;
+}
+
+p > a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 1px;
+	left: 0;
+	background-color: $link-color;
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+p > a:hover:before {
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+}
+
+
+.project-tiles {
+	img {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		-webkit-transition: opacity .5s linear;
+		&:hover {
+			opacity: 1;
+			filter: alpha(opacity=100);
+		}
+	}
+	.zoom-full {
+		height:auto;
+		overflow: hidden;
+	}
+	.zoom-full img {
+		@include imagezoom;
+		max-width: 100%;
+		height: auto;
+	}
+	.zoom-full:hover img {
+		-webkit-transform:scale(1.02);
+		-moz-transform:scale(1.02);
+		-ms-transform:scale(1.02);
+		-o-transform:scale(1.02);
+		transform:scale(1.02);
+	}
+}
+

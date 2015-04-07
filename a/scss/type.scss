@@ -1,69 +1,48 @@
-$serif: 'Hoefler Text', Georgia, serif;
-$sans-serif: 'Avenir Next', arial, helvetiva, sans-serif;
+$serif: "Georgia", serif;
+$sans-serif:"Helvetica";
 
+a {
+	@include transition;
+	color: $link-hover;
+	text-decoration: none;
+	&:hover{
+		color: $link-color;
+	}
+}
 
 h1 {
-	font: rem(36) $serif;
-	color: $fp_darkGrey;
+	font-size: 36px;
+	font-weight: 300;
 	font-style: italic;
-	margin-bottom: 1em;
+	margin-bottom: .25em;
+	margin-top: 0;
+	@media only screen and (min-width: 40.063em) {
+		font-size: 52px;
+}
 }
 
 h2 {
-	font: rem(28) $serif;
-	color: $fp_darkGrey;
-	font-style: italic;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: .25em;
 }
 
 h3 {
-	font: rem(21) $sans-serif;
-	color: $fp_darkGrey;
-	font-weight: 600;
-}
-
-h4 {
-	font: rem(16) $sans-serif;
-	color: $fp_darkGrey;
-}
-
-h5, label {
-	font: rem(12) $sans-serif;
-	color: $fp_midGrey;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: letter-spacing(250);
-}
-
-label {
-	margin-bottom: 16px;
-}
-
-h6 {
-	font: rem(12) $sans-serif;
-	font-weight: 600;
+	font-size: 26px;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: .25em;
 }
 
 p {
-	font: $sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	color: $body-text;
+	margin-bottom: 1em;
+	margin-top: 0;
 }
 
-.btn, input {
-	font: 1.6rem $sans-serif;
+p.small {
+	@extend p;
+	font-size: 16px;
 }
-
-.caption {
-	font: 1.3rem $sans-serif;
-	color: $fp_midGrey;
-}
-
-a {
-	color: $fp_pink;
-	&:hover,
-	&:focus {
-		text-decoration: underline;
-	}
-	&:visited {
-		color: $fp_darkPink;
-	}
-}
-
