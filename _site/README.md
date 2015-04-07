@@ -1,7 +1,7 @@
 ### Free People Digital Style Guide
 [![Build Status](https://travis-ci.org/freepeople/styleguide.svg?branch=master)](https://travis-ci.org/freepeople/styleguide)
 
-Sneak peak [here](https://rawgit.com/freepeople/styleguide/master/index.html)
+Sneak peak [here](https://rawgit.com/freepeople/styleguide/master/_site/index.html)
 
 ### Tech Stack
 Below we have our glorious tech-stack.
