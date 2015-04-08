@@ -4,7 +4,7 @@
  <title>Anthony Nguyen</title>
  <link href="http://antnguyen.com/atom.xml" rel="self"/>
  <link href="http://antnguyen.com/"/>
- <updated>2015-04-08T13:19:11-04:00</updated>
+ <updated>2015-04-08T13:37:15-04:00</updated>
  <id>http://antnguyen.com</id>
  <author>
    <name>Anthony Nguyen</name>
@@ -180,7 +180,7 @@
         &lt;div class=&quot;radio&quot;&gt;  
             &lt;ul class=&quot;radio-group&quot;&gt;
                 &lt;li&gt;
-                    &lt;input id=&quot;standard&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;radio&quot; for=&quot;standard&quot;&gt;Standard (5–7 business days)  &lt;span style=&quot;color:#bebebe;&quot;&gt;&lt;strike&gt;$7.95&lt;/strike&gt;&lt;/span&gt; &lt;span id=&quot;freecall&quot;&gt;&lt;strong&gt;FREE!&lt;/strong&gt;&lt;/span&gt;&lt;/label&gt;
+                    &lt;input id=&quot;standard&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;radio&quot; for=&quot;standard&quot;&gt;Standard (5–7 business days)  &lt;span style=&quot;color:#bebebe;&quot;&gt;&lt;strike&gt;$7.95&lt;/strike&gt;&lt;/span&gt; &lt;span id=&quot;freecall&quot;&gt;FREE!&lt;/span&gt;&lt;/label&gt;
                 &lt;/li&gt;
                 &lt;li&gt;
                     &lt;input id=&quot;express&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;radio&quot; for=&quot;express&quot;&gt;Express (2–3 business days) $10.00&lt;/label&gt;
@@ -203,13 +203,6 @@
                         &lt;input id=&quot;check1&quot; type=&quot;checkbox&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;checkbox&quot; for=&quot;check1&quot;&gt;Yes, sign me up for Free People email news, offers and other promotional communications.&lt;/label&gt;
                     &lt;/li&gt;
                 &lt;/ul&gt;
-                &lt;pre&gt;
-                    &lt;code&gt;&amp;lt;input id=&quot;id name&quot; type=&quot;checkbox&quot;&amp;gt;
-                        &amp;lt;label for=&quot;id name&quot;&amp;gt;
-                        Label Text Goes Here
-                        &amp;lt;/label&amp;gt;      
-                    &lt;/code&gt;
-                &lt;/pre&gt;
             &lt;/div&gt;  
         &lt;/ul&gt;
     &lt;/div&gt;

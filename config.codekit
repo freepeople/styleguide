@@ -101,13 +101,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/a\/i\/global\/input-dd-arrow@1x.png": {
+	"\/_site\/a\/i\/global\/checkbox-active.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 344,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/global\/checkbox-active.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/global\/checkbox-active.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/global\/input-dd-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 197,
-		"inputAbbreviatedPath": "\/_site\/a\/i\/global\/input-dd-arrow@1x.png",
-		"outputAbbreviatedPath": "\/_site\/a\/i\/global\/input-dd-arrow@1x.png",
+		"inputAbbreviatedPath": "\/_site\/a\/i\/global\/input-dd-arrow.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/global\/input-dd-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -119,6 +130,17 @@
 		"initialSize": 550,
 		"inputAbbreviatedPath": "\/_site\/a\/i\/global\/pink-checkmark.png",
 		"outputAbbreviatedPath": "\/_site\/a\/i\/global\/pink-checkmark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/global\/pink-radio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 550,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/global\/pink-radio.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/global\/pink-radio.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -446,13 +468,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/a\/i\/global\/input-dd-arrow@1x.png": {
+	"\/a\/i\/global\/checkbox-active.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 221,
-		"inputAbbreviatedPath": "\/a\/i\/global\/input-dd-arrow@1x.png",
-		"outputAbbreviatedPath": "\/a\/i\/global\/input-dd-arrow@1x.png",
+		"initialSize": 344,
+		"inputAbbreviatedPath": "\/a\/i\/global\/checkbox-active.png",
+		"outputAbbreviatedPath": "\/a\/i\/global\/checkbox-active.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/global\/input-dd-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197,
+		"inputAbbreviatedPath": "\/a\/i\/global\/input-dd-arrow.png",
+		"outputAbbreviatedPath": "\/a\/i\/global\/input-dd-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
