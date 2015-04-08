@@ -9,7 +9,7 @@ permalink:         pretty
 title:            Free People
 tagline:          ''
 description:      'Free People'
-url:              www.freepeople.com
+url:              https://rawgit.com/freepeople/styleguide/master/_site/
 baseurl:          '/'
 paginate:         5
 
