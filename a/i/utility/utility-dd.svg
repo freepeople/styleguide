@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>utility-dd</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.0152917725 L6.00011068,0.0152917725 L6.00011068,12.0149641 L0,12.0149641"></path>
+    </defs>
+    <g id="Utility-Nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="utility-dd" sketch:type="MSArtboardGroup">
+            <g id="Imported-Layers" sketch:type="MSLayerGroup" transform="translate(6.000000, 3.000000) rotate(-270.000000) translate(-6.000000, -3.000000) translate(3.000000, -3.000000)">
+                <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M0.924200778,12.0149641 C0.660775886,12.0149641 0.409526093,11.8959067 0.234647383,11.6850987 C-0.0774779096,11.3049889 -0.0774779096,10.7370088 0.234647383,10.3612681 L3.83958383,6.00748205 L0.233540556,1.65151143 C-0.0774779096,1.27467846 -0.0774779096,0.705606073 0.234647383,0.329865378 C0.587725285,-0.0906583654 1.26621041,-0.0884738265 1.61264735,0.328773108 L5.76657013,5.34775129 C5.91709864,5.52579121 6.00011068,5.76062915 6.00011068,6.00748205 C6.00011068,6.25215041 5.91709864,6.48698834 5.76657013,6.6672128 L1.61375417,11.6840064 C1.43887546,11.8948145 1.18762567,12.0149641 0.924200778,12.0149641" id="Fill-1" fill="#333333" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,53 @@
+.utility-nav {
+	background-color:white;
+	height: 30px;
+	border-bottom: 1px solid $off-white-dk;
+}
+
+.utility {
+	float: right;
+	list-style: none;
+	font: 16px serif;
+	font-style: italic;
+	padding-top: 3px;
+	li {
+		display: inline-block;
+		padding: 0 1em;
+		border-left: 1px solid $off-white-dk;
+	}
+	.bag-btn {
+		width: 70px;
+		height: 22px;
+		border-radius: 4px;
+		background-color: $pink;
+		padding: 5px;
+	}
+	.bag-icon {
+		padding: 0 8px;
+	}
+	.cart-items {
+		font: 16px $sans-serif;
+		font-weight: 600;
+		color: white;
+	}
+}
+
+.main-nav {
+	height: 76px;
+	border-bottom: 1px solid $off-white-dk;
+	.fp-logo {
+			height: auto;
+			width: 212px;
+		}
+	.links {
+		text-align: center;
+		li {
+			display: inline-block;
+			padding: 0 2em;
+			a {
+				font: 18px $serif;
+				font-style: italic;
+			}
+		}
+	}
+}

@@ -4,17 +4,40 @@
 {% include head.html %}
 
 <div class="container" id="header">
-	<div class="row">
-		<div class="large-12 columns site-logo">
-			<center><a href="{{ site.baseurl }}"></a></center>
+	<div class="large-12 small-12 columns utility-nav">
+		<div class="row">
+			<div class="large-6 small-12 columns promo">
+				<p>Promotional Copy! <a href="#">Link!</a></p>
+			</div>
+			<div class="large-6 small-12 columns">
+				<ul class="utility">
+					<li><img src="/a/i/utility/us-flag.svg" alt=""> <img src="/a/i/utility/utility-dd.svg" alt=""></li>
+					<li>Sign In <img src="/a/i/utility/utility-dd.svg" alt=""></li>
+					<li>Wishlist</li>
+					<li class="bag-btn"><img class="bag-icon" src="/a/i/utility/bag-icon.svg" alt=""><span class="cart-items">99</span></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-
+	<div class="large-12 columns main-nav">
+		<div class="row">
+				<div class="large-12 columns">
+					<ul class="links">
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">FP Me</a></li>
+						<li class="fp-logo"><a href="#"><img src="/a/i/logo-header.png" alt=""></a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FP Presents</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
 </div>
 
 
+
 <div class="content">
-		{{ content }}
+	{{ content }}
 </div>
 <div id="footer">
 	

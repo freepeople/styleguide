@@ -1,0 +1,17 @@
+body {
+	font: 100% serif;
+}
+
+p {
+	font: 100% serif;
+}
+
+a {
+	@include transition;
+	color: $grey-dk;
+	text-decoration: none;
+	&:focus,
+	&:hover {
+		color: $pink;
+	}
+}

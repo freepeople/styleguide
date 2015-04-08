@@ -83,6 +83,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/a\/i\/logo-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10406,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/logo-header.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/logo-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/utility\/bag-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/utility\/bag-icon.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/utility\/bag-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/utility\/us-flag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/utility\/us-flag.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/utility\/us-flag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/utility\/utility-dd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/utility\/utility-dd.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/utility\/utility-dd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/a\/scss\/animations.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -108,6 +152,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/a\/scss\/framework.scss",
 		"outputAbbreviatedPath": "\/_site\/a\/css\/framework.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_site\/a\/scss\/global.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/a\/scss\/global.scss",
+		"outputAbbreviatedPath": "\/_site\/a\/css\/global.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -163,20 +223,27 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/a\/scss\/variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/a\/scss\/variables.scss",
+		"outputAbbreviatedPath": "\/_site\/a\/css\/variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/public\/css\/site.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/public\/css\/site.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -216,6 +283,50 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/a\/i\/logo-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10406,
+		"inputAbbreviatedPath": "\/a\/i\/logo-header.png",
+		"outputAbbreviatedPath": "\/a\/i\/logo-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/utility\/bag-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270,
+		"inputAbbreviatedPath": "\/a\/i\/utility\/bag-icon.png",
+		"outputAbbreviatedPath": "\/a\/i\/utility\/bag-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/utility\/us-flag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164,
+		"inputAbbreviatedPath": "\/a\/i\/utility\/us-flag.png",
+		"outputAbbreviatedPath": "\/a\/i\/utility\/us-flag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/utility\/utility-dd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262,
+		"inputAbbreviatedPath": "\/a\/i\/utility\/utility-dd.png",
+		"outputAbbreviatedPath": "\/a\/i\/utility\/utility-dd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/a\/scss\/animations.scss": {
 		"createSourceMap": 0,
