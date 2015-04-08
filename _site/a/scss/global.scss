@@ -50,4 +50,24 @@
 			}
 		}
 	}
+	.row {
+		margin-top: 5px;
+	}
+}
+
+.sub-nav {
+	height: 40px;
+	border-bottom: 1px solid $off-white-dk;
+	.sub-links {
+		text-align: center;
+		li {
+			display: inline-block;
+			padding: 0 2em;
+			a {
+				font: 14px $sans-serif;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+		}
+	}
 }

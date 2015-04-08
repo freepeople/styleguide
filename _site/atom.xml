@@ -4,13 +4,268 @@
  <title>Anthony Nguyen</title>
  <link href="http://antnguyen.com/atom.xml" rel="self"/>
  <link href="http://antnguyen.com/"/>
- <updated>2015-04-08T10:46:49-04:00</updated>
+ <updated>2015-04-08T11:35:31-04:00</updated>
  <id>http://antnguyen.com</id>
  <author>
    <name>Anthony Nguyen</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Colors</title>
+   <link href="http://antnguyen.com//guidelines/colors"/>
+   <updated>2014-01-11T00:00:00-05:00</updated>
+   <id>http://antnguyen.com/guidelines/Colors</id>
+   <content type="html">&lt;h1&gt;Brand Colors&lt;/h1&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>UI Elements</title>
+   <link href="http://antnguyen.com//guidelines/visual-ui"/>
+   <updated>2014-01-10T00:00:00-05:00</updated>
+   <id>http://antnguyen.com/guidelines/visual</id>
+   <content type="html">&lt;h1&gt;UI Elements&lt;/h1&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;h2&gt;Panel View&lt;/h2&gt;
+    &lt;div class=&quot;panel&quot;&gt;
+        &lt;p&gt;You’re checking out as a &lt;strong&gt;guest&lt;/strong&gt;. Already have a Free People account?&lt;/p&gt;
+        &lt;button&gt;Sign In&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;div class=&quot;panel&quot;&amp;gt; 
+            &amp;lt;p&amp;gt;Text Goes Here&amp;lt;/p&amp;gt;
+            &amp;lt;button&amp;gt;Btn Text&amp;lt;/button&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;h2&gt;Dotted Line Separator&lt;/h2&gt;
+    &lt;div class=&quot;hr-dots&quot;&gt;&lt;/div&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;div class=&quot;hr-do&quot;&amp;gt; 
+        &lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Typography</title>
+   <link href="http://antnguyen.com//guidelines/typography"/>
+   <updated>2014-01-08T00:00:00-05:00</updated>
+   <id>http://antnguyen.com/guidelines/Typography</id>
+   <content type="html">&lt;h1&gt;Typography Styles&lt;/h1&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;serif-example&quot;&gt;
+        &lt;p&gt;Serif Typeface: Hoefler Text&lt;/p&gt;
+        &lt;p class=&quot;upper-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+        &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;san-serif-example&quot;&gt;
+        &lt;p&gt;Sans-Serif Typeface: Avenir Next&lt;/p&gt;
+        &lt;p&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+        &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;Heading Style 1&lt;/h1&gt;
+
+&lt;h2&gt;Heading Style 2&lt;/h2&gt;
+
+&lt;h3&gt;Heading Style 3&lt;/h3&gt;
+
+&lt;h4&gt;Heading Style 4&lt;/h4&gt;
+
+&lt;h5&gt;Heading Style 5&lt;/h5&gt;
+
+&lt;h6&gt;Heading Style 6&lt;/h6&gt;
+
+&lt;p class=&quot;caption&quot;&gt;This is example caption text.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Margin Spacing</title>
+   <link href="http://antnguyen.com//guidelines/margins"/>
+   <updated>2014-01-07T00:00:00-05:00</updated>
+   <id>http://antnguyen.com/guidelines/margins</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Button Styles</title>
+   <link href="http://antnguyen.com//guidelines/buttons"/>
+   <updated>2014-01-06T00:00:00-05:00</updated>
+   <id>http://antnguyen.com/guidelines/buttons</id>
+   <content type="html">&lt;div class=&quot;row&quot;&gt;
+    &lt;h1&gt;Button Styles&lt;/h1&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Primary Button Style&lt;/h2&gt;
+        &lt;li&gt;&lt;button&gt;Regular Button Style&lt;/button&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;button class=&quot;primary-hover&quot;&gt;Regular Hover Style&lt;/button&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;button&amp;gt; Button Text &amp;lt;/button&amp;gt;&lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Secondary Button Style&lt;/h2&gt;
+        &lt;li&gt;&lt;button class=&quot;secondary&quot;&gt;Secondary Button Style&lt;/button&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;button class=&quot;secondary-hover&quot;&gt;Secondary Button Hover Style&lt;/button&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;button class=&quot;secondary&quot;&amp;gt; Button Text &amp;lt;/button&amp;gt;&lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Tertiary Button Style&lt;/h2&gt;
+        &lt;li&gt;&lt;button class=&quot;tertiary&quot;&gt;Tertiary Button Style&lt;/button&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;button class=&quot;tertiary-hover&quot;&gt;Tertiary Button Hover Style&lt;/button&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;button class=&quot;tertiary&quot;&amp;gt; Button Text &amp;lt;/button&amp;gt;&lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Alternative Button Style&lt;/h2&gt;
+        &lt;li&gt;&lt;button class=&quot;alt&quot;&gt;Alternative Button Style&lt;/button&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;button class=&quot;alt-hover&quot;&gt;Alternative Button Hover Style&lt;/button&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;button class=&quot;alt&quot;&amp;gt; Button Text &amp;lt;/button&amp;gt;&lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Small Button&lt;/h2&gt;
+        &lt;li&gt;&lt;button class=&quot;small&quot;&gt;Small Button Style&lt;/button&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;button class=&quot;small-hover&quot;&gt;Small Button Hover Style&lt;/button&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;button class=&quot;small&quot;&amp;gt; Button Text &amp;lt;/button&amp;gt;&lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Input Styles</title>
+   <link href="http://antnguyen.com//guidelines/input"/>
+   <updated>2014-01-05T00:00:00-05:00</updated>
+   <id>http://antnguyen.com/guidelines/input</id>
+   <content type="html">&lt;h1&gt;Input Styles&lt;/h1&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Text Input&lt;/h2&gt;
+        &lt;form&gt;
+            &lt;label for=&quot;address&quot;&gt;Address:&lt;/label&gt;&lt;br&gt;
+            &lt;input type=&quot;text&quot; id=&quot;address&quot; name=&quot;address&quot; placeholder=&quot;Street address, P.O. box, Company name, C/O&quot;&gt;
+            &lt;label for=&quot;address&quot;&gt;Address 2 (Optional):&lt;/label&gt;&lt;br&gt;
+            &lt;input type=&quot;text&quot; id=&quot;address&quot; name=&quot;address&quot; placeholder=&quot;Apartment, suite, unit, building, etc.&quot;&gt;
+        &lt;/form&gt;
+    &lt;/ul&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;form&amp;gt;
+            &amp;lt;label for=&quot;input id&quot;&amp;gt; Button Text &amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;
+            &amp;lt;input type=&quot;text&quot; name=&quot;name&quot;&amp;gt;
+            &amp;lt;/form&amp;gt;
+        &lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row full&quot;&gt;
+    &lt;h2&gt;Dropdown Input&lt;/h2&gt;
+    &lt;form class=&quot;dropdown&quot;&gt;
+        &lt;select&gt;
+            &lt;option selected disabled&gt;-- Select Your State --&lt;/option&gt;
+            &lt;option&gt;Option 1&lt;/option&gt;
+            &lt;option&gt;Option 2 &lt;/option&gt;
+            &lt;option&gt;Option 3&lt;/option&gt;
+            &lt;option&gt;Option 4&lt;/option&gt;
+            &lt;option&gt;Option 5&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/form&gt;
+    &lt;pre&gt;
+        &lt;code&gt;&amp;lt;form class=&quot;dropdown&quot;&amp;gt;
+            &amp;lt;select&amp;gt;
+                &amp;lt;option value=&quot;&quot; selected disabled&amp;gt;-- Select --&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&quot;&quot;&amp;gt;Option 1&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&quot;&quot;&amp;gt;Option 2&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&quot;&quot;&amp;gt;Option 3&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&quot;&quot;&amp;gt;Option 4&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&quot;&quot;&amp;gt;Option 5&amp;lt;/option&amp;gt;
+            &amp;lt;/select&amp;gt;
+        &amp;lt;/form&amp;gt;
+        &lt;/code&gt;
+    &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row full&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Radio Input&lt;/h2&gt;
+        &lt;div class=&quot;radio&quot;&gt;  
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;input id=&quot;standard&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;radio&quot; for=&quot;standard&quot;&gt;Standard (5–7 business days)  &lt;span style=&quot;color:#bebebe;&quot;&gt;&lt;strike&gt;$7.95&lt;/strike&gt;&lt;/span&gt; &lt;span id=&quot;freecall&quot;&gt;&lt;strong&gt;FREE!&lt;/strong&gt;&lt;/span&gt;&lt;/label&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;input id=&quot;express&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;radio&quot; for=&quot;express&quot;&gt;Express (2–3 business days) $10.00&lt;/label&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;input id=&quot;overnight&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;radio&quot; for=&quot;overnight&quot;&gt;Overnight (1–2 business days) $20.00&lt;/label&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;pre&gt;
+                &lt;code&gt;&amp;lt;input id=&quot;id name&quot; type=&quot;radio&quot;&amp;gt;
+                    &amp;lt;label for=&quot;id name&quot;&amp;gt;
+                    Label Text Goes Here
+                    &amp;lt;/label&amp;gt;      
+                &lt;/code&gt;
+            &lt;/pre&gt;
+        &lt;/div&gt;  
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row full&quot;&gt;
+    &lt;ul class=&quot;btn-group&quot;&gt;
+        &lt;h2&gt;Checkbox Input&lt;/h2&gt;
+        &lt;div class=&quot;checkbox&quot;&gt;  
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;input id=&quot;check1&quot; type=&quot;checkbox&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;&lt;label class=&quot;checkbox&quot; for=&quot;check1&quot;&gt;Yes, sign me up for Free People email news, offers and other promotional communications.&lt;/label&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;pre&gt;
+                &lt;code&gt;&amp;lt;input id=&quot;id name&quot; type=&quot;checkbox&quot;&amp;gt;
+                    &amp;lt;label for=&quot;id name&quot;&amp;gt;
+                    Label Text Goes Here
+                    &amp;lt;/label&amp;gt;      
+                &lt;/code&gt;
+            &lt;/pre&gt;
+        &lt;/div&gt;  
+    &lt;/ul&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
 
 </feed>

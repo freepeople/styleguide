@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+  <title>
+    Free People - Women's Boho Clothing & Bohemian Fashion
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/site.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="http://www.freepeople.com/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Anthony Nguyen" href="/atom.xml">
+
+</head>
+<body>
+
+
+<div class="container" id="header">
+	<div class="large-12 small-12 columns utility-nav">
+		<div class="row">
+			<div class="large-6 small-12 columns promo">
+				<p>Promotional Copy! <a href="#">Link!</a></p>
+			</div>
+			<div class="large-6 small-12 columns hide-for-small-only">
+				<ul class="utility">
+					<li><img src="/a/i/utility/us-flag.svg" alt=""> <img src="/a/i/utility/utility-dd.svg" alt=""></li>
+					<li>Sign In <img src="/a/i/utility/utility-dd.svg" alt=""></li>
+					<li>Wishlist</li>
+					<li class="bag-btn"><img class="bag-icon" src="/a/i/utility/bag-icon.svg" alt=""><span class="cart-items">99</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="large-12 columns main-nav">
+		<div class="row">
+				<div class="large-12 columns">
+					<ul class="links">
+						<li><a href="/guidelines/">Guidelines</a></li>
+						<li><a href="#">Base CSS</a></li>
+						<li><a href="#">Components</a></li>
+						<li class="fp-logo"><a href="#"><img src="/a/i/logo-header.png" alt=""></a></li>
+						<li><a href="#">Javascript</a></li>
+						<li><a href="#">Mixins</a></li>
+						<li><a href="#">Depracated</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+</div>
+
+
+
+<div class="content">
+	<div class="large-12 columns sub-nav">
+	<div class="row">
+		<div class="large-12 columns">
+			<ul class="sub-links">
+				
+				<li><p><a href="/guidelines/colors">Colors</a></p></li>
+				
+				<li><p><a href="/guidelines/visual-ui">UI Elements</a></p></li>
+				
+				<li><p><a href="/guidelines/typography">Typography</a></p></li>
+				
+				<li><p><a href="/guidelines/margins">Margin Spacing</a></p></li>
+				
+				<li><p><a href="/guidelines/buttons">Button Styles</a></p></li>
+				
+				<li><p><a href="/guidelines/input">Input Styles</a></p></li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="column three-fourths">
+	<h1>Input Styles</h1>
+
+<div class="row">
+    <ul class="btn-group">
+        <h2>Text Input</h2>
+        <form>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" placeholder="Street address, P.O. box, Company name, C/O">
+            <label for="address">Address 2 (Optional):</label><br>
+            <input type="text" id="address" name="address" placeholder="Apartment, suite, unit, building, etc.">
+        </form>
+    </ul>
+    <pre>
+        <code>&lt;form&gt;
+            &lt;label for="input id"&gt; Button Text &lt;/label&gt;&lt;br&gt;
+            &lt;input type="text" name="name"&gt;
+            &lt;/form&gt;
+        </code>
+    </pre>
+</div>
+
+<div class="row full">
+    <h2>Dropdown Input</h2>
+    <form class="dropdown">
+        <select>
+            <option selected disabled>-- Select Your State --</option>
+            <option>Option 1</option>
+            <option>Option 2 </option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+        </select>
+    </form>
+    <pre>
+        <code>&lt;form class="dropdown"&gt;
+            &lt;select&gt;
+                &lt;option value="" selected disabled&gt;-- Select --&lt;/option&gt;
+                &lt;option value=""&gt;Option 1&lt;/option&gt;
+                &lt;option value=""&gt;Option 2&lt;/option&gt;
+                &lt;option value=""&gt;Option 3&lt;/option&gt;
+                &lt;option value=""&gt;Option 4&lt;/option&gt;
+                &lt;option value=""&gt;Option 5&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/form&gt;
+        </code>
+    </pre>
+</div>
+
+<div class="row full">
+    <ul class="btn-group">
+        <h2>Radio Input</h2>
+        <div class="radio">  
+            <ul>
+                <li>
+                    <input id="standard" type="radio" name="gender" value="female"><label class="radio" for="standard">Standard (5–7 business days)  <span style="color:#bebebe;"><strike>$7.95</strike></span> <span id="freecall"><strong>FREE!</strong></span></label>
+                </li>
+                <li>
+                    <input id="express" type="radio" name="gender" value="female"><label class="radio" for="express">Express (2–3 business days) $10.00</label>
+                </li>
+                <li>
+                    <input id="overnight" type="radio" name="gender" value="female"><label class="radio" for="overnight">Overnight (1–2 business days) $20.00</label>
+                </li>
+            </ul>
+            <pre>
+                <code>&lt;input id="id name" type="radio"&gt;
+                    &lt;label for="id name"&gt;
+                    Label Text Goes Here
+                    &lt;/label&gt;      
+                </code>
+            </pre>
+        </div>  
+    </ul>
+</div>
+
+<div class="row full">
+    <ul class="btn-group">
+        <h2>Checkbox Input</h2>
+        <div class="checkbox">  
+            <ul>
+                <li>
+                    <input id="check1" type="checkbox" name="gender" value="female"><label class="checkbox" for="check1">Yes, sign me up for Free People email news, offers and other promotional communications.</label>
+                </li>
+            </ul>
+            <pre>
+                <code>&lt;input id="id name" type="checkbox"&gt;
+                    &lt;label for="id name"&gt;
+                    Label Text Goes Here
+                    &lt;/label&gt;      
+                </code>
+            </pre>
+        </div>  
+    </ul>
+</div>
+
+</div>
+
+
+</div>
+<div id="footer">
+	
+</div>
+</body>
+</html>
