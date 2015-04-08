@@ -1,0 +1,197 @@
+/* Button styling */
+.btn-group {
+	list-style: none;
+	li {
+		display: inline-block;
+	}
+}
+
+button {
+	height: 56px;
+	width: auto;
+	background-color: $pink;
+	border-radius: 4px;
+	border: 0;
+	font: 21px $sans-serif;
+	font-weight: 600;
+	color: white;
+	padding: 0 32px;
+	border: none;
+	outline:none;
+}
+.primary-hover {
+	background-color: $pink-dk;
+}
+
+button.secondary {
+	height: 32px;
+	background-color: white;
+	border: 2px solid $pink;
+	font: 14px $sans-serif;
+	font-weight: 600;
+	color: $pink;
+	padding: 0 16px;
+}
+.secondary-hover {
+	@extend button.secondary;
+	background-color: $pink;
+	color: white;
+}
+
+button.tertiary {
+	height: 32px;
+	background-color: $fpme-accent;
+	font: 14px $sans-serif;
+	font-weight: 600;
+	color: white;
+	padding: 0 16px;
+}
+
+.tertiary-hover {
+	@extend button.tertiary;
+	background-color: $fpme-accent-dk;
+}
+
+
+label {  
+	display: inline-block;  
+	cursor: pointer;
+	font: 12px $sans-serif;
+	color: $grey;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+label.lrg {
+	font: 16px $sans-serif;
+	color: $grey-dk;
+	font-weight: 600;
+	text-transform: none;
+	letter-spacing: 0;
+}  
+
+input[type="text"] {
+	display: block;
+	margin-bottom: 32px;
+	padding-left: 20px;
+	height: 32px;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid $grey-lt;
+	font: 14px $sans-serif;
+	color: $grey-dk;
+	box-shadow: none;
+
+	&:focus {
+		border: 2px solid $pink;
+		outline: none;
+	}
+}
+
+placeholder {
+	color: $grey-lt;
+}
+::-webkit-input-placeholder {
+	color: $grey-lt;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: $grey-lt;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: $grey-lt;
+}
+:-ms-input-placeholder {  
+	color: $grey-lt;
+}
+
+input[type=radio] + label {  
+	font: rem(21) $sans-serif;
+	color: $grey-dk;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+input[type=checkbox] + label {
+	font: rem(16) $sans-serif;
+	color: $grey-dk;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+	display:none;
+}
+
+label.radio:before {  
+	content: "";
+	float: left;  
+	display: block;
+	width: 20px;  
+	height: 20px;
+	border-radius: 15px;
+	margin-top: -2px;
+	margin-right: 16px;
+	left: 0;
+	background-color: white; 
+	border: 1px solid $grey;
+}
+
+input[type=radio]:checked + label:before {
+	background: url(/a/i/pink-radio.svg) no-repeat;
+	width: 20px;
+	height: 20px;
+	background-size: 20px 20px; 
+	border: none;
+}
+
+input[type=radio]:checked + label {  
+	color: $pink;
+	font-weight: 700;
+}  
+
+
+label.checkbox:before {  
+	content: "";
+	float: left;  
+	display: inline-block;
+	width: 30px;  
+	height: 30px;
+	margin-top: -5px;
+	margin-right: 16px;
+	left: 0;
+	background-color: white; 
+	border: 1px solid $grey;
+}
+
+input[type=checkbox]:checked + label:before {
+	background: url(/a/i/checkbox-active.svg) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: 30px 30px; 
+	border: 1px solid $pink;
+}
+
+input[type=checkbox]:checked + label {  
+}  
+
+.dropdown select {
+	border: 1px solid $grey-lt;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: white url(/a/i/global/input-dd-arrow.svg) no-repeat 97.5% center;
+	height: 32px;
+	width: 50%;
+	text-indent: 0.01px;
+	text-overflow: "";
+	font: 14px $sans-serif;
+	color: $grey-dk;
+	border-radius: 4px;
+	padding-left: 20px;
+	box-shadow: none;
+	&:focus {
+		border: 2px solid $pink;
+		outline: none;
+	}
+}

@@ -43,18 +43,18 @@
 	</div>
 	<div class="large-12 columns main-nav">
 		<div class="row">
-				<div class="large-12 columns">
-					<ul class="links">
-						<li><a href="/guidelines/">Guidelines</a></li>
-						<li><a href="#">Base CSS</a></li>
-						<li><a href="#">Components</a></li>
-						<li class="fp-logo"><a href="#"><img src="/a/i/logo-header.png" alt=""></a></li>
-						<li><a href="#">Javascript</a></li>
-						<li><a href="#">Mixins</a></li>
-						<li><a href="#">Depracated</a></li>
-					</ul>
-				</div>
+			<div class="large-12 columns">
+				<ul class="links">
+					<li><a href="/guidelines/">Guidelines</a></li>
+					<li><a href="#">Base CSS</a></li>
+					<li><a href="#">Components</a></li>
+					<li class="fp-logo"><a href="#"><img src="/a/i/logo-header.png" alt=""></a></li>
+					<li><a href="#">Javascript</a></li>
+					<li><a href="#">Mixins</a></li>
+					<li><a href="#">Depracated</a></li>
+				</ul>
 			</div>
+		</div>
 	</div>
 </div>
 
@@ -74,7 +74,7 @@
 				
 				<li><p><a href="/guidelines/margins">Margin Spacing</a></p></li>
 				
-				<li><p><a href="/guidelines/buttons">Button Styles</a></p></li>
+				<li><p><a href="/guidelines/buttons">Input Styles</a></p></li>
 				
 				<li><p><a href="/guidelines/input">Input Styles</a></p></li>
 				
@@ -83,65 +83,118 @@
 	</div>
 </div>
 
-<div class="column three-fourths">
-	<div class="row">
-    <h1>Button Styles</h1>
-    <ul class="btn-group">
+<div class="row">
+	<div class="large-12 columns style-content">
+		<div class="row">
+    <div class="large-10 small-centered columns">
+        <h1>Input Styles</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-10 small-centered columns">
         <h2>Primary Button Style</h2>
-        <li><button>Regular Button Style</button></li>
-        <li><button class="primary-hover">Regular Hover Style</button></li>
-    </ul>
-    <pre>
-        <code>&lt;button&gt; Button Text &lt;/button&gt;</code>
-    </pre>
+        <ul class="btn-group">
+            <li><button>Regular Button Style</button></li>
+            <li><button class="primary-hover">Regular Hover Style</button></li>
+        </ul>
+    </div>
 </div>
 
 <div class="row">
-    <ul class="btn-group">
+    <div class="large-10 small-centered columns">
         <h2>Secondary Button Style</h2>
-        <li><button class="secondary">Secondary Button Style</button></li>
-        <li><button class="secondary-hover">Secondary Button Hover Style</button></li>
-    </ul>
-    <pre>
-        <code>&lt;button class="secondary"&gt; Button Text &lt;/button&gt;</code>
-    </pre>
+        <ul class="btn-group">
+            <li><button class="secondary">Secondary Button Style</button></li>
+            <li><button class="secondary-hover">Secondary Hover Style</button></li>
+        </ul>
+    </div>
 </div>
 
 <div class="row">
-    <ul class="btn-group">
+    <div class="large-10 small-centered columns">
         <h2>Tertiary Button Style</h2>
-        <li><button class="tertiary">Tertiary Button Style</button></li>
-        <li><button class="tertiary-hover">Tertiary Button Hover Style</button></li>
-    </ul>
-    <pre>
-        <code>&lt;button class="tertiary"&gt; Button Text &lt;/button&gt;</code>
-    </pre>
+        <ul class="btn-group">
+            <li><button class="tertiary">Tertiary Button Style</button></li>
+            <li><button class="tertiary-hover">Tertiary Hover Style</button></li>
+        </ul>
+    </div>
 </div>
 
 <div class="row">
-    <ul class="btn-group">
-        <h2>Alternative Button Style</h2>
-        <li><button class="alt">Alternative Button Style</button></li>
-        <li><button class="alt-hover">Alternative Button Hover Style</button></li>
-    </ul>
-    <pre>
-        <code>&lt;button class="alt"&gt; Button Text &lt;/button&gt;</code>
-    </pre>
+    <div class="large-10 small-centered columns">
+        <ul class="btn-group">
+            <h2>Text Input</h2>
+            <div class="large-6 columns">
+                <form>
+                    <label for="address">Address:</label><br>
+                    <input type="text" id="address" name="address" placeholder="Street address, P.O. box, Company name, C/O">
+                    <label for="address">Address 2 (Optional):</label><br>
+                    <input type="text" id="address" name="address" placeholder="Apartment, suite, unit, building, etc.">
+                </form>
+            </div>
+        </ul>
+    </div>
 </div>
 
 <div class="row">
-    <ul class="btn-group">
-        <h2>Small Button</h2>
-        <li><button class="small">Small Button Style</button></li>
-        <li><button class="small-hover">Small Button Hover Style</button></li>
-    </ul>
-    <pre>
-        <code>&lt;button class="small"&gt; Button Text &lt;/button&gt;</code>
-    </pre>
+    <div class="large-10 small-centered columns">
+        <h2>Dropdown Input</h2>
+        <form class="dropdown">
+            <select>
+                <option selected disabled>-- Select Your State --</option>
+                <option>Option 1</option>
+                <option>Option 2 </option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+            </select>
+        </form>
+    </div>
 </div>
 
-<p></div></p>
+<div class="row">
+    <div class="large-10 small-centered columns">
+        <h2>Radio Input</h2>
+        <div class="radio">  
+            <ul class="radio-group">
+                <li>
+                    <input id="standard" type="radio" name="gender" value="female"><label class="radio" for="standard">Standard (5–7 business days)  <span style="color:#bebebe;"><strike>$7.95</strike></span> <span id="freecall"><strong>FREE!</strong></span></label>
+                </li>
+                <li>
+                    <input id="express" type="radio" name="gender" value="female"><label class="radio" for="express">Express (2–3 business days) $10.00</label>
+                </li>
+                <li>
+                    <input id="overnight" type="radio" name="gender" value="female"><label class="radio" for="overnight">Overnight (1–2 business days) $20.00</label>
+                </li>
+            </div>  
+        </ul>
+    </div>
+</div>
 
+<div class="row">
+    <div class="large-10 small-centered columns">
+        <ul class="btn-group">
+            <h2>Checkbox Input</h2>
+            <div class="checkbox">  
+                <ul>
+                    <li>
+                        <input id="check1" type="checkbox" name="gender" value="female"><label class="checkbox" for="check1">Yes, sign me up for Free People email news, offers and other promotional communications.</label>
+                    </li>
+                </ul>
+                <pre>
+                    <code>&lt;input id="id name" type="checkbox"&gt;
+                        &lt;label for="id name"&gt;
+                        Label Text Goes Here
+                        &lt;/label&gt;      
+                    </code>
+                </pre>
+            </div>  
+        </ul>
+    </div>
+</div>
+
+	</div>
 </div>
 
 

@@ -2,7 +2,7 @@
 layout: page
 categories: guidelines
 title: Typography
-permalink: guidelines/typography
+permalink: /guidelines/typography
 ---
 <h1>Typography Styles</h1>
 
