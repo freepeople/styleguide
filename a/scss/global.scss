@@ -15,6 +15,15 @@
 			float: left;
 		}
 	}
+	a {
+	@include transition;
+	color: $grey-dk;
+	text-decoration: none;
+	&:focus,
+	&:hover {
+		color: $pink;
+	}
+}
 }
 
 .utility {
@@ -71,6 +80,15 @@
 	.row {
 		margin-top: 5px;
 	}
+	a {
+	@include transition;
+	color: $grey-dk;
+	text-decoration: none;
+	&:focus,
+	&:hover {
+		color: $pink;
+	}
+}
 }
 
 
@@ -89,6 +107,15 @@
 			}
 		}
 	}
+	a {
+	@include transition;
+	color: $grey-dk;
+	text-decoration: none;
+	&:focus,
+	&:hover {
+		color: $pink;
+	}
+}
 }
 
 .style-content {

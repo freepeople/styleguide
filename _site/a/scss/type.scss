@@ -3,15 +3,67 @@ body {
 }
 
 p {
-	font: 100% serif;
+	font: 14px $sans-serif;
+	color: $grey-dk;
+}
+
+p.caption {
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: $grey;
 }
 
 a {
 	@include transition;
-	color: $grey-dk;
+	color: $pink;
 	text-decoration: none;
 	&:focus,
 	&:hover {
-		color: $pink;
+		color: $pink-dk;
+		border-bottom: 1px solid $pink-dk;
 	}
+}
+
+a.important {
+	font-weight: 600;
+	border-bottom: 1px solid $pink;
+	&:hover,
+	&:focus {
+		border-bottom: 1px solid $pink-dk;
+	}
+}
+
+h1 {
+	font: 26px $serif;
+	color: $grey-dk; 
+	font-style: italic;
+}
+
+h2 {
+	font: 21px $sans-serif;
+	color: $grey-dk;
+	font-weight: 600;
+}
+
+h3 {
+	font: 18px $sans-serif;
+	color: $grey-dk;
+	font-weight: 600;
+}
+
+.serif-example {
+	p {
+		font: 18px $serif;
+	}
+}
+
+.sans-serif-example {
+	p {
+		font: 18px $sans-serif;
+	}
+}
+
+.lower-case {
+	text-transform: lowercase;
 }

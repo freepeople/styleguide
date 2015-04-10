@@ -9,8 +9,8 @@ permalink:         pretty
 title:            Free People
 tagline:          ''
 description:      'Free People'
-url:              https://rawgit.com/freepeople/styleguide/master/_site/
-baseurl:          'https://rawgit.com/freepeople/styleguide/master/_site/'
+url:              /
+baseurl:          '/'
 paginate:         5
 
 author:

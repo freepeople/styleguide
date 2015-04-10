@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Free People</title>
- <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site/atom.xml" rel="self"/>
- <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site/"/>
- <updated>2015-04-10T13:38:04-04:00</updated>
- <id>https://rawgit.com/freepeople/styleguide/master/_site/</id>
+ <link href="//atom.xml" rel="self"/>
+ <link href="//"/>
+ <updated>2015-04-10T14:59:49-04:00</updated>
+ <id>/</id>
  <author>
    <name>Free People</name>
    <email></email>
@@ -14,18 +14,18 @@
  
  <entry>
    <title>Colors</title>
-   <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site//guidelines/colors"/>
+   <link href="///guidelines/colors"/>
    <updated>2014-01-11T00:00:00-05:00</updated>
-   <id>https://rawgit.com/freepeople/styleguide/master/_site//guidelines/Colors</id>
+   <id>//guidelines/Colors</id>
    <content type="html">&lt;h1&gt;Brand Colors&lt;/h1&gt;
 </content>
  </entry>
  
  <entry>
    <title>UI Elements</title>
-   <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site//guidelines/visual-ui"/>
+   <link href="///guidelines/visual-ui"/>
    <updated>2014-01-10T00:00:00-05:00</updated>
-   <id>https://rawgit.com/freepeople/styleguide/master/_site//guidelines/visual</id>
+   <id>//guidelines/visual</id>
    <content type="html">&lt;h1&gt;UI Elements&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -56,9 +56,9 @@
  
  <entry>
    <title>Typography</title>
-   <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site//guidelines/typography"/>
+   <link href="///guidelines/typography"/>
    <updated>2014-01-08T00:00:00-05:00</updated>
-   <id>https://rawgit.com/freepeople/styleguide/master/_site//guidelines/Typography</id>
+   <id>//guidelines/Typography</id>
    <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;large-12 columns&quot;&gt;
         &lt;h1&gt;Typography Styles&lt;/h1&gt;
@@ -66,50 +66,54 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;serif-example&quot;&gt;
-        &lt;p&gt;Serif Typeface: Hoefler Text&lt;/p&gt;
-        &lt;p class=&quot;upper-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
-        &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+    &lt;div class=&quot;large-12 columns&quot;&gt;
+        &lt;h2&gt;Type Families&lt;/h2&gt;
+        &lt;div class=&quot;serif-example&quot;&gt;
+            &lt;p&gt;Serif Typeface: Hoefler Text&lt;/p&gt;
+            &lt;p class=&quot;upper-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+            &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;san-serif-example&quot;&gt;
-        &lt;p&gt;Sans-Serif Typeface: Avenir Next&lt;/p&gt;
-        &lt;p&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
-        &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+    &lt;div class=&quot;large-12 columns&quot;&gt;
+        &lt;div class=&quot;sans-serif-example&quot;&gt;
+            &lt;p&gt;Sans-Serif Typeface: Avenir Next&lt;/p&gt;
+            &lt;p&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+            &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h1&gt;Heading Style 1&lt;/h1&gt;
-
-&lt;h2&gt;Heading Style 2&lt;/h2&gt;
-
-&lt;h3&gt;Heading Style 3&lt;/h3&gt;
-
-&lt;h4&gt;Heading Style 4&lt;/h4&gt;
-
-&lt;h5&gt;Heading Style 5&lt;/h5&gt;
-
-&lt;h6&gt;Heading Style 6&lt;/h6&gt;
-
-&lt;p class=&quot;caption&quot;&gt;This is example caption text.&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-12 columns&quot;&gt;
+        &lt;h1&gt;Dreamweaver Dress - Heading Style 1&lt;/h1&gt;
+        &lt;h2&gt;Heading Style 2&lt;/h2&gt;
+        &lt;h3&gt;Heading Style 3&lt;/h3&gt;
+        &lt;h4&gt;Heading Style 4&lt;/h4&gt;
+        &lt;h5&gt;Heading Style 5&lt;/h5&gt;
+        &lt;h6&gt;Heading Style 6&lt;/h6&gt;
+        &lt;p&gt;Description text for a product. Along with an example of &lt;a href=&quot;#&quot;&gt;in-line link text&lt;/a&gt;. And another example of a more &lt;a class=&quot;important&quot; href=&quot;#&quot;&gt;important link call-out&lt;/a&gt;.&lt;/p&gt;
+        &lt;p class=&quot;caption&quot;&gt;This is example caption text.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Margin Spacing</title>
-   <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site//guidelines/margins"/>
+   <link href="///guidelines/margins"/>
    <updated>2014-01-07T00:00:00-05:00</updated>
-   <id>https://rawgit.com/freepeople/styleguide/master/_site//guidelines/margins</id>
+   <id>//guidelines/margins</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Input Styles</title>
-   <link href="https://rawgit.com/freepeople/styleguide/master/_site/https://rawgit.com/freepeople/styleguide/master/_site//guidelines/buttons"/>
+   <link href="///guidelines/buttons"/>
    <updated>2014-01-06T00:00:00-05:00</updated>
-   <id>https://rawgit.com/freepeople/styleguide/master/_site//guidelines/buttons</id>
+   <id>//guidelines/buttons</id>
    <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;large-12 small-centered columns&quot;&gt;
         &lt;h1&gt;Input Styles&lt;/h1&gt;
@@ -150,7 +154,7 @@
     &lt;div class=&quot;large-12 small-centered columns&quot;&gt;
         &lt;ul class=&quot;btn-group&quot;&gt;
             &lt;h2&gt;Text Input&lt;/h2&gt;
-            &lt;div class=&quot;large-6 columns&quot;&gt;
+            &lt;div class=&quot;large-4 small-12 columns&quot;&gt;
                 &lt;form&gt;
                     &lt;label for=&quot;address&quot;&gt;Address:&lt;/label&gt;&lt;br&gt;
                     &lt;input type=&quot;text&quot; id=&quot;address&quot; name=&quot;address&quot; placeholder=&quot;Street address, P.O. box, Company name, C/O&quot;&gt;
@@ -163,7 +167,7 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;large-12 small-centered columns&quot;&gt;
+    &lt;div class=&quot;large-4 small-12 columns&quot;&gt;
         &lt;h2&gt;Dropdown Input&lt;/h2&gt;
         &lt;form class=&quot;dropdown&quot;&gt;
             &lt;select&gt;
