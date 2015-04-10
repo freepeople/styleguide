@@ -1,10 +1,14 @@
 ---
-layout: page
+layout: guidelines
 categories: guidelines
 title: Typography
 permalink: /guidelines/typography
 ---
-<h1>Typography Styles</h1>
+<div class="row">
+	<div class="large-12 columns">
+		<h1>Typography Styles</h1>
+	</div>
+</div>
 
 <div class="row">
 	<div class="serif-example">

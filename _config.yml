@@ -10,7 +10,7 @@ title:            Free People
 tagline:          ''
 description:      'Free People'
 url:              https://rawgit.com/freepeople/styleguide/master/_site/
-baseurl:          '/'
+baseurl:          'https://rawgit.com/freepeople/styleguide/master/_site/'
 paginate:         5
 
 author:

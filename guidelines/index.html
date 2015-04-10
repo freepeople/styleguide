@@ -1,18 +1,8 @@
 ---
-layout: default
+layout: guidelines
 title: Home
+categories: guidelines
 ---
-<div class="large-12 columns sub-nav">
-	<div class="row">
-		<div class="large-12 columns">
-			<ul class="sub-links">
-				{% for post in site.categories['guidelines'] %}
-				<li><p><a href="{{ post.url }}">{{ post.title }}</a></p></li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-</div>
 
 <div class="column three-fourths">
 	{{ content }}

@@ -1,0 +1,456 @@
+//colors
+$white_5: rgba(255, 255, 255, 0.05);
+$color_mine_shaft_approx: #333333;
+$white: #ffffff;
+$color_rangoon_green_approx: #1a1a1a;
+$color_nobel_approx: #b3b3b3;
+$color_mountain_mist_approx: #999999;
+$color_tundora_approx: #444444;
+$color_chicago_approx: #5e5e5e;
+$white_70: rgba(255, 255, 255, 0.7);
+$color_shark_approx: #262626;
+$black_50: rgba(0, 0, 0, 0.5);
+$white_20: rgba(255, 255, 255, 0.2);
+
+//@extend-elements
+//original selectors
+//.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6
+%extend_1 {
+	color: $white;
+	font-weight: bold;
+	line-height: 2.8125rem;
+	margin: 0;
+}
+
+
+.off-canvas-wrap {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	&.move-right {
+		min-height: 100%;
+	}
+	&.move-left {
+		min-height: 100%;
+	}
+}
+.inner-wrap {
+	position: relative;
+	width: 100%;
+	//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: transform 500ms ease;
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+.tab-bar {
+	background: $color_mine_shaft_approx;
+	color: $white;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	position: relative;
+	h1 {
+		@extend %extend_1;
+		font-size: 1.125rem;
+	}
+	h2 {
+		@extend %extend_1;
+		font-size: 1.125rem;
+	}
+	h3 {
+		@extend %extend_1;
+		font-size: 1.125rem;
+	}
+	h4 {
+		@extend %extend_1;
+		font-size: 1.125rem;
+	}
+	h5 {
+		@extend %extend_1;
+	}
+	h6 {
+		@extend %extend_1;
+	}
+	.menu-icon {
+		text-indent: 2.1875rem;
+		width: 2.8125rem;
+		height: 2.8125rem;
+		display: block;
+		padding: 0;
+		color: $white;
+		position: relative;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0, 0, 0);
+		span::after {
+			content: "";
+			position: absolute;
+			display: block;
+			height: 0;
+			top: 50%;
+			margin-top: -0.5rem;
+			left: 0.90625rem;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white;
+			width: 1rem;
+		}
+		span:hover:after {
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 0 0 1px $color_nobel_approx, 0 7px 0 1px $color_nobel_approx, 0 14px 0 1px $color_nobel_approx;
+		}
+	}
+}
+.left-small {
+	width: 2.8125rem;
+	height: 2.8125rem;
+	position: absolute;
+	top: 0;
+	border-right: solid 1px $color_rangoon_green_approx;
+	left: 0;
+}
+.right-small {
+	width: 2.8125rem;
+	height: 2.8125rem;
+	position: absolute;
+	top: 0;
+	border-left: solid 1px $color_rangoon_green_approx;
+	right: 0;
+}
+.tab-bar-section {
+	padding: 0 0.625rem;
+	position: absolute;
+	text-align: center;
+	height: 2.8125rem;
+	top: 0;
+	&.left {
+		left: 0;
+		right: 2.8125rem;
+	}
+	&.right {
+		left: 2.8125rem;
+		right: 0;
+	}
+	&.middle {
+		left: 2.8125rem;
+		right: 2.8125rem;
+	}
+}
+@media only screen and(min-width: 40.063em) {
+	.offcanvas-overlap-right .exit-off-canvas:hover {
+		background: $white_5;
+	}
+}
+.left-off-canvas-menu {
+	width: 15.625rem;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: $color_mine_shaft_approx;
+	z-index: 1001;
+	//Instead of the line below you could use @includebox-sizing($bs)
+	box-sizing: content-box;
+	//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: transform 500ms ease 0s;
+	//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate3d(-100%, 0, 0);
+	left: 0;
+	* {
+	}
+	ul.off-canvas-list li.has-submenu > a:after {
+		content: "\BB";
+		margin-left: 0.5rem;
+		display: inline;
+	}
+}
+.right-off-canvas-menu {
+	width: 15.625rem;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: $color_mine_shaft_approx;
+	z-index: 1001;
+	//Instead of the line below you could use @includebox-sizing($bs)
+	box-sizing: content-box;
+	//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: transform 500ms ease 0s;
+	//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate3d(100%, 0, 0);
+	right: 0;
+	* {
+	}
+	ul.off-canvas-list li.has-submenu > a:before {
+		content: "\AB";
+		margin-right: 0.5rem;
+		display: inline;
+	}
+}
+.move-right {
+	.exit-off-canvas {
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: background 300ms ease;
+		cursor: pointer;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: -4px 0 4px $black_50, 4px 0 4px $black_50;
+		display: block;
+		position: absolute;
+		background: $white_20;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1002;
+	}
+	> .inner-wrap {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(15.625rem, 0, 0);
+	}
+}
+.move-left {
+	.exit-off-canvas {
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: background 300ms ease;
+		cursor: pointer;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: -4px 0 4px $black_50, 4px 0 4px $black_50;
+		display: block;
+		position: absolute;
+		background: $white_20;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1002;
+	}
+	> .inner-wrap {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(-15.625rem, 0, 0);
+	}
+}
+.offcanvas-overlap {
+	.left-off-canvas-menu {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: none;
+		z-index: 1003;
+	}
+	.right-off-canvas-menu {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: none;
+		z-index: 1003;
+	}
+	.exit-off-canvas {
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: background 300ms ease;
+		cursor: pointer;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: -4px 0 4px $black_50, 4px 0 4px $black_50;
+		display: block;
+		position: absolute;
+		background: $white_20;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1002;
+	}
+}
+.offcanvas-overlap-left {
+	.right-off-canvas-menu {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: none;
+		z-index: 1003;
+	}
+	.exit-off-canvas {
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: background 300ms ease;
+		cursor: pointer;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: -4px 0 4px $black_50, 4px 0 4px $black_50;
+		display: block;
+		position: absolute;
+		background: $white_20;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1002;
+	}
+}
+.offcanvas-overlap-right {
+	.left-off-canvas-menu {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: none;
+		z-index: 1003;
+	}
+	.exit-off-canvas {
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: background 300ms ease;
+		cursor: pointer;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: -4px 0 4px $black_50, 4px 0 4px $black_50;
+		display: block;
+		position: absolute;
+		background: $white_20;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1002;
+	}
+}
+.no-csstransforms {
+	.left-off-canvas-menu {
+		left: -15.625rem;
+	}
+	.right-off-canvas-menu {
+		right: -15.625rem;
+	}
+	.move-left > .inner-wrap {
+		right: 15.625rem;
+	}
+	.move-right > .inner-wrap {
+		left: 15.625rem;
+	}
+}
+.left-submenu {
+	width: 15.625rem;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: $color_mine_shaft_approx;
+	z-index: 1002;
+	//Instead of the line below you could use @includebox-sizing($bs)
+	box-sizing: content-box;
+	//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate3d(-100%, 0, 0);
+	left: 0;
+	//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: transform 500ms ease;
+	* {
+	}
+	&.move-right {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0%, 0, 0);
+	}
+	&.offcanvas-overlap-right {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0%, 0, 0);
+	}
+	&.offcanvas-overlap {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0%, 0, 0);
+	}
+	.back > a {
+		padding: 0.3rem 0.9375rem;
+		color: $color_mountain_mist_approx;
+		text-transform: uppercase;
+		font-weight: bold;
+		background: $color_tundora_approx;
+		border-top: 1px solid $color_chicago_approx;
+		border-bottom: none;
+		margin: 0;
+		&:hover {
+			background: $color_mine_shaft_approx;
+			border-top: 1px solid $color_chicago_approx;
+			border-bottom: none;
+		}
+		&:before {
+			content: "\AB";
+			margin-right: 0.5rem;
+			display: inline;
+		}
+	}
+}
+.right-submenu {
+	width: 15.625rem;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: $color_mine_shaft_approx;
+	z-index: 1002;
+	//Instead of the line below you could use @includebox-sizing($bs)
+	box-sizing: content-box;
+	//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate3d(100%, 0, 0);
+	right: 0;
+	//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: transform 500ms ease;
+	* {
+	}
+	&.move-left {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0%, 0, 0);
+	}
+	&.offcanvas-overlap-left {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0%, 0, 0);
+	}
+	&.offcanvas-overlap {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0%, 0, 0);
+	}
+	.back > a {
+		padding: 0.3rem 0.9375rem;
+		color: $color_mountain_mist_approx;
+		text-transform: uppercase;
+		font-weight: bold;
+		background: $color_tundora_approx;
+		border-top: 1px solid $color_chicago_approx;
+		border-bottom: none;
+		margin: 0;
+		&:hover {
+			background: $color_mine_shaft_approx;
+			border-top: 1px solid $color_chicago_approx;
+			border-bottom: none;
+		}
+		&:after {
+			content: "\BB";
+			margin-left: 0.5rem;
+			display: inline;
+		}
+	}
+}
+ul.off-canvas-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	li {
+		label {
+			display: block;
+			padding: 0.3rem 0.9375rem;
+			color: $color_mountain_mist_approx;
+			text-transform: uppercase;
+			font-size: 0.75rem;
+			font-weight: bold;
+			background: $color_tundora_approx;
+			border-top: 1px solid $color_chicago_approx;
+			border-bottom: none;
+			margin: 0;
+		}
+		a {
+			display: block;
+			padding: 0.66667rem;
+			color: $white_70;
+			border-bottom: 1px solid $color_shark_approx;
+			//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: background 300ms ease;
+			&:hover {
+				background: $color_shark_approx;
+			}
+		}
+	}
+}

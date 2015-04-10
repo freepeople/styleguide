@@ -12,15 +12,16 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/site.css">
+  <link rel="stylesheet" href="https://rawgit.com/freepeople/styleguide/master/_site/public/css/site.css">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rawgit.com/freepeople/styleguide/master/_site/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="http://www.freepeople.com/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/atom+xml" title="Anthony Nguyen" href="/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Free People" href="https://rawgit.com/freepeople/styleguide/master/_site/atom.xml">
 
+  <script src="/a/js/vendor/modernizr.js"></script>
 </head>
 <body>
 
@@ -31,7 +32,7 @@
 			<div class="large-6 small-12 columns promo">
 				<p>Promotional Copy! <a href="#">Link!</a></p>
 			</div>
-			<div class="large-6 small-12 columns hide-for-small-only">
+			<div class="large-6 small-12 columns show-for-large-up">
 				<ul class="utility">
 					<li><img src="/a/i/utility/us-flag.svg" alt=""> <img src="/a/i/utility/utility-dd.svg" alt=""></li>
 					<li>Sign In <img src="/a/i/utility/utility-dd.svg" alt=""></li>
@@ -41,7 +42,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="large-12 columns main-nav">
+	<div class="large-12 columns show-for-large-up main-nav">
 		<div class="row">
 			<div class="large-12 columns">
 				<ul class="links">
@@ -57,6 +58,7 @@
 		</div>
 	</div>
 </div>
+
 
 
 
@@ -76,8 +78,6 @@
 				
 				<li><p><a href="/guidelines/buttons">Input Styles</a></p></li>
 				
-				<li><p><a href="/guidelines/input">Input Styles</a></p></li>
-				
 			</ul>
 		</div>
 	</div>
@@ -85,7 +85,11 @@
 
 <div class="row">
 	<div class="large-12 columns style-content">
-		<h1>Typography Styles</h1>
+		<div class="row">
+    <div class="large-12 columns">
+        <h1>Typography Styles</h1>
+    </div>
+</div>
 
 <div class="row">
     <div class="serif-example">
@@ -125,5 +129,12 @@
 <div id="footer">
 	
 </div>
+<script src="/a/js/vendor/jquery.js"></script>
+<script src="/a/js/vendor/fastclick.js"></script>
+<script src="/a/js/foundation.min.js"></script>
+<script src="/a/js/foundation/foundation.offcanvas.js"></script>
+<script>
+  $(document).foundation();
+</script>
 </body>
 </html>

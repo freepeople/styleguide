@@ -1,7 +1,20 @@
 .utility-nav {
 	background-color:white;
-	height: 30px;
+	height: auto;
 	border-bottom: 1px solid $off-white-dk;
+	p {
+		font: 16px $serif;
+		font-style: italic;
+		margin: 7px 0 0 0;
+	}
+	.promo {
+		text-align: center;
+		float: center;
+		@media only screen and (min-width: 64.063em) {
+			text-align: left;
+			float: left;
+		}
+	}
 }
 
 .utility {
@@ -14,6 +27,7 @@
 		display: inline-block;
 		padding: 0 1em;
 		border-left: 1px solid $off-white-dk;
+		margin-bottom: 3px;
 	}
 	.bag-btn {
 		width: 70px;
@@ -24,26 +38,30 @@
 	}
 	.bag-icon {
 		padding: 0 8px;
+		margin-top: -5px;
 	}
 	.cart-items {
+		position: absolute;
 		font: 16px $sans-serif;
 		font-weight: 600;
 		color: white;
+		margin-top: -3px;
 	}
 }
 
 .main-nav {
 	height: auto;
 	border-bottom: 1px solid $off-white-dk;
+	background: url(/a/i/nav-bg.jpg) no-repeat center;
 	.fp-logo {
-			height: auto;
-			width: 212px;
-		}
+		height: auto;
+		width: 212px;
+	}
 	.links {
 		text-align: center;
 		li {
 			display: inline-block;
-			padding: 0 2em;
+			padding: 0 1.5em;
 			a {
 				font: 18px $serif;
 				font-style: italic;
@@ -54,6 +72,7 @@
 		margin-top: 5px;
 	}
 }
+
 
 .sub-nav {
 	height: auto;
@@ -66,7 +85,7 @@
 			a {
 				font: 14px $sans-serif;
 				text-transform: uppercase;
-				letter-spacing: 1px;
+				letter-spacing: 2px;
 			}
 		}
 	}

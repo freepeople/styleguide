@@ -9,7 +9,7 @@
 			<div class="large-6 small-12 columns promo">
 				<p>Promotional Copy! <a href="#">Link!</a></p>
 			</div>
-			<div class="large-6 small-12 columns hide-for-small-only">
+			<div class="large-6 small-12 columns show-for-large-up">
 				<ul class="utility">
 					<li><img src="/a/i/utility/us-flag.svg" alt=""> <img src="/a/i/utility/utility-dd.svg" alt=""></li>
 					<li>Sign In <img src="/a/i/utility/utility-dd.svg" alt=""></li>
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="large-12 columns main-nav">
+	<div class="large-12 columns show-for-large-up main-nav">
 		<div class="row">
 			<div class="large-12 columns">
 				<ul class="links">
@@ -38,11 +38,19 @@
 
 
 
+
 <div class="content">
 	{{ content }}
 </div>
 <div id="footer">
 	
 </div>
+<script src="/a/js/vendor/jquery.js"></script>
+<script src="/a/js/vendor/fastclick.js"></script>
+<script src="/a/js/foundation.min.js"></script>
+<script src="/a/js/foundation/foundation.offcanvas.js"></script>
+<script>
+  $(document).foundation();
+</script>
 </body>
 </html>
