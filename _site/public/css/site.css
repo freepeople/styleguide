@@ -2226,7 +2226,7 @@ a.important {
     border-bottom: 1px solid #c8006c; }
 
 h1 {
-  font: 26px "Hoefler Text", Georgia, serif;
+  font: 26px "PT Serif", "Hoefler Text", Georgia, serif;
   color: #333333;
   font-style: italic; }
 
@@ -2241,7 +2241,7 @@ h3 {
   font-weight: 600; }
 
 .serif-example p {
-  font: 18px "Hoefler Text", Georgia, serif; }
+  font: 18px "PT Serif", "Hoefler Text", Georgia, serif; }
 
 .sans-serif-example p {
   font: 18px "Avenir Next", Arial, Helvetica, sans-serif; }
@@ -2254,9 +2254,10 @@ h3 {
   height: auto;
   border-bottom: 1px solid #dddddd; }
   .utility-nav p {
-    font: 16px "Hoefler Text", Georgia, serif;
-    font-style: italic;
-    margin: 7px 0 0 0; }
+    font: 14px "josefin sans", "Avenir Next", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 7px 0 0 0;
+    text-transform: uppercase; }
   .utility-nav .promo {
     text-align: center;
     float: center; }
@@ -2269,7 +2270,7 @@ h3 {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #333333;
+    color: #ff008a;
     text-decoration: none; }
     .utility-nav a:focus, .utility-nav a:hover {
       color: #ff008a; }
@@ -2277,8 +2278,9 @@ h3 {
 .utility {
   float: right;
   list-style: none;
-  font: 16px serif;
-  font-style: italic;
+  font: 14px "josefin sans", "Avenir Next", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
   padding-top: 3px; }
   .utility li {
     display: inline-block;
@@ -2302,31 +2304,25 @@ h3 {
     margin-top: -3px; }
 
 .main-nav {
-  height: auto;
-  border-bottom: 1px solid #dddddd;
-  background: url(/a/i/nav-bg.jpg) no-repeat center; }
-  .main-nav .fp-logo {
-    height: auto;
-    width: 212px; }
+  height: 112px;
+  border-bottom: 1px solid #dddddd; }
   .main-nav .links {
+    padding-top: 35px;
     text-align: center; }
     .main-nav .links li {
       display: inline-block;
       padding: 0 1.5em; }
       .main-nav .links li a {
-        font: 18px "Hoefler Text", Georgia, serif;
-        font-style: italic; }
+        font: 14px "josefin sans", "Avenir Next", Arial, Helvetica, sans-serif;
+        color: #7e7e7e;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+        .main-nav .links li a:hover, .main-nav .links li a:focus {
+          color: #ff008a;
+          border-bottom: none; }
   .main-nav .row {
     margin-top: 5px; }
-  .main-nav a {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    color: #333333;
-    text-decoration: none; }
-    .main-nav a:focus, .main-nav a:hover {
-      color: #ff008a; }
 
 .sub-nav {
   height: auto;
@@ -2337,7 +2333,7 @@ h3 {
       display: inline-block;
       padding: 0 2em; }
       .sub-nav .sub-links li a {
-        font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
+        font: 13px "josefin sans", "Avenir Next", Arial, Helvetica, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px; }
   .sub-nav a {
@@ -2361,10 +2357,12 @@ h3 {
     display: inline-block; }
 
 button {
+  border-radius: 4px;
+  -webkit-box-radius: 4px;
+  -moz-box-radius: 4px;
   height: 56px;
   width: auto;
   background-color: #ff008a;
-  border-radius: 4px;
   border: 0;
   font: 21px "Avenir Next", Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -2450,12 +2448,14 @@ label.checkbox {
   letter-spacing: 0; }
 
 input[type="text"] {
+  border-radius: 4px;
+  -webkit-box-radius: 4px;
+  -moz-box-radius: 4px;
   display: block;
   margin-bottom: 32px;
   padding-left: 20px;
   height: 32px;
   width: 100%;
-  border-radius: 4px;
   border: 1px solid #bebebe;
   font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
   color: #333333;
@@ -2469,12 +2469,14 @@ input[type="checkbox"] {
   display: none; }
 
 label.radio:before {
+  border-radius: 10px;
+  -webkit-box-radius: 10px;
+  -moz-box-radius: 10px;
   content: "";
   float: left;
   display: block;
   width: 20px;
   height: 20px;
-  border-radius: 10px;
   margin-top: -2px;
   margin-right: 16px;
   left: 0;
@@ -2512,6 +2514,9 @@ input[type=checkbox]:checked + label:before {
   border: 2px solid #ff008a; }
 
 .dropdown select {
+  border-radius: 4px;
+  -webkit-box-radius: 4px;
+  -moz-box-radius: 4px;
   border: 1px solid #bebebe;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2522,7 +2527,6 @@ input[type=checkbox]:checked + label:before {
   text-overflow: "";
   font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
   color: #333333;
-  border-radius: 4px;
   padding-left: 20px;
   box-shadow: none; }
   .dropdown select:focus {

@@ -7,10 +7,10 @@
 }
 
 button {
+	@include rounded(4px);
 	height: 56px;
 	width: auto;
 	background-color: $pink;
-	border-radius: 4px;
 	border: 0;
 	font: 21px $sans-serif;
 	font-weight: 600;
@@ -107,12 +107,12 @@ label.checkbox {
 }
 
 input[type="text"] {
+	@include rounded(4px);
 	display: block;
 	margin-bottom: 32px;
 	padding-left: 20px;
 	height: 32px;
 	width: 100%;
-	border-radius: 4px;
 	border: 1px solid $grey-lt;
 	font: 14px $sans-serif;
 	color: $grey-dk;
@@ -130,13 +130,13 @@ input[type="checkbox"]{
 	display:none;
 }
 
-label.radio:before {  
+label.radio:before {
+	@include rounded(10px);
 	content: "";
 	float: left;  
 	display: block;
 	width: 20px;  
 	height: 20px;
-	border-radius: 10px;
 	margin-top: -2px;
 	margin-right: 16px;
 	left: 0;
@@ -183,6 +183,7 @@ input[type=checkbox]:checked + label {
 }  
 
 .dropdown select {
+	@include rounded(4px);
 	border: 1px solid $grey-lt;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -193,7 +194,6 @@ input[type=checkbox]:checked + label {
 	text-overflow: "";
 	font: 14px $sans-serif;
 	color: $grey-dk;
-	border-radius: 4px;
 	padding-left: 20px;
 	box-shadow: none;
 	&:focus {

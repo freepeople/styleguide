@@ -3,9 +3,10 @@
 	height: auto;
 	border-bottom: 1px solid $off-white-dk;
 	p {
-		font: 16px $serif;
-		font-style: italic;
+		font: 14px $nav-type;
+		font-weight: 600;
 		margin: 7px 0 0 0;
+		text-transform: uppercase;
 	}
 	.promo {
 		text-align: center;
@@ -17,7 +18,7 @@
 	}
 	a {
 	@include transition;
-	color: $grey-dk;
+	color: $pink;
 	text-decoration: none;
 	&:focus,
 	&:hover {
@@ -29,8 +30,9 @@
 .utility {
 	float: right;
 	list-style: none;
-	font: 16px serif;
-	font-style: italic;
+	font: 14px $nav-type;
+	text-transform: uppercase;
+	font-weight: 600;
 	padding-top: 3px;
 	li {
 		display: inline-block;
@@ -59,37 +61,33 @@
 }
 
 .main-nav {
-	height: auto;
+	height: 112px;
 	border-bottom: 1px solid $off-white-dk;
-	background: url(/a/i/nav-bg.jpg) no-repeat center;
-	.fp-logo {
-		height: auto;
-		width: 212px;
-	}
 	.links {
+		padding-top: 35px;
 		text-align: center;
 		li {
 			display: inline-block;
 			padding: 0 1.5em;
 			a {
-				font: 18px $serif;
-				font-style: italic;
+				font: 14px $nav-type;
+				color: $grey;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				&:hover,
+				&:focus {
+					color: $pink;
+					border-bottom: none;
+				}
 			}
 		}
 	}
 	.row {
 		margin-top: 5px;
 	}
-	a {
-	@include transition;
-	color: $grey-dk;
-	text-decoration: none;
-	&:focus,
-	&:hover {
-		color: $pink;
-	}
 }
-}
+
 
 
 .sub-nav {
@@ -101,7 +99,7 @@
 			display: inline-block;
 			padding: 0 2em;
 			a {
-				font: 14px $sans-serif;
+				font: 13px $nav-type;
 				text-transform: uppercase;
 				letter-spacing: 2px;
 			}

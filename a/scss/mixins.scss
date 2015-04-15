@@ -11,3 +11,9 @@
 	-o-transition: $transition;
 	transition: $transition;
 }
+
+@mixin rounded($radius) {
+	border-radius: $radius;
+	-webkit-box-radius: $radius;
+	-moz-box-radius: $radius;
+}
