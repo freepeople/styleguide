@@ -4,7 +4,7 @@
  <title>Free People</title>
  <link href="//atom.xml" rel="self"/>
  <link href="//"/>
- <updated>2015-04-15T12:08:43-04:00</updated>
+ <updated>2015-04-15T18:05:31-04:00</updated>
  <id>/</id>
  <author>
    <name>Free People</name>
@@ -18,39 +18,6 @@
    <updated>2014-01-11T00:00:00-05:00</updated>
    <id>//guidelines/Colors</id>
    <content type="html">&lt;h1&gt;Brand Colors&lt;/h1&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>UI Elements</title>
-   <link href="///guidelines/visual-ui"/>
-   <updated>2014-01-10T00:00:00-05:00</updated>
-   <id>//guidelines/visual</id>
-   <content type="html">&lt;h1&gt;UI Elements&lt;/h1&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-    &lt;h2&gt;Panel View&lt;/h2&gt;
-    &lt;div class=&quot;panel&quot;&gt;
-        &lt;p&gt;You’re checking out as a &lt;strong&gt;guest&lt;/strong&gt;. Already have a Free People account?&lt;/p&gt;
-        &lt;button&gt;Sign In&lt;/button&gt;
-    &lt;/div&gt;
-    &lt;pre&gt;
-        &lt;code&gt;&amp;lt;div class=&quot;panel&quot;&amp;gt; 
-            &amp;lt;p&amp;gt;Text Goes Here&amp;lt;/p&amp;gt;
-            &amp;lt;button&amp;gt;Btn Text&amp;lt;/button&amp;gt;
-        &amp;lt;/div&amp;gt;
-        &lt;/code&gt;
-    &lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-    &lt;h2&gt;Dotted Line Separator&lt;/h2&gt;
-    &lt;div class=&quot;hr-dots&quot;&gt;&lt;/div&gt;
-    &lt;pre&gt;
-        &lt;code&gt;&amp;lt;div class=&quot;hr-do&quot;&amp;gt; 
-        &lt;/code&gt;
-    &lt;/pre&gt;
-&lt;/div&gt;
 </content>
  </entry>
  
@@ -69,7 +36,7 @@
     &lt;div class=&quot;large-12 columns&quot;&gt;
         &lt;h2&gt;Type Families&lt;/h2&gt;
         &lt;div class=&quot;serif-example&quot;&gt;
-            &lt;p&gt;Serif Typeface: Hoefler Text&lt;/p&gt;
+            &lt;p&gt;Serif Typeface: PT Serif&lt;/p&gt;
             &lt;p class=&quot;upper-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
             &lt;p class=&quot;lower-case&quot;&gt;A B C D E F G H I J K L M N O P Q R S T U V W X Y Z&lt;/p&gt;
         &lt;/div&gt;
@@ -99,14 +66,6 @@
     &lt;/div&gt;
 &lt;/div&gt;
 </content>
- </entry>
- 
- <entry>
-   <title>Margin Spacing</title>
-   <link href="///guidelines/margins"/>
-   <updated>2014-01-07T00:00:00-05:00</updated>
-   <id>//guidelines/margins</id>
-   <content type="html"></content>
  </entry>
  
  <entry>
@@ -213,6 +172,157 @@
                 &lt;/ul&gt;
             &lt;/div&gt;  
         &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Visual UI</title>
+   <link href="///guidelines/visuals"/>
+   <updated>2014-01-04T00:00:00-05:00</updated>
+   <id>//guidelines/visual</id>
+   <content type="html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-12 small-centered columns&quot;&gt;
+        &lt;h1&gt;Visual UI Examples&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-12 small-centered columns&quot;&gt;
+        &lt;h2&gt;Product Detail Page&lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-12 small-centered columns&quot;&gt;
+        &lt;h3&gt;Color Selection:&lt;/h3&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;color:&lt;/p&gt;
+        &lt;ul class=&quot;swatches&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-1.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-2.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-3.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-4.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-5.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;swatches&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-6.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-7.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-8.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-9.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;color: &lt;span class=&quot;selected-text&quot;&gt;Summer of Love&lt;/span&gt;&lt;/p&gt;
+        &lt;ul class=&quot;swatches&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-1.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;selected&quot; src=&quot;/a/i/pdp/swatches/swatch-2.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-3.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-4.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-5.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;swatches&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-6.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-7.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-8.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/a/i/pdp/swatches/swatch-9.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;length:&lt;/p&gt;
+        &lt;ul class=&quot;length&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;regular&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;short&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;long&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;length: &lt;span class=&quot;selected-text&quot;&gt;Regular&lt;/span&gt;&lt;/p&gt;
+        &lt;ul class=&quot;length&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;selected&quot;&gt;regular&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;short&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;long&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;size:&lt;/p&gt;
+        &lt;ul class=&quot;size&quot;&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;XS&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;S&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;M&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;L&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;XL&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;size: &lt;span class=&quot;selected-text&quot;&gt;Small&lt;/span&gt;&lt;/p&gt;
+        &lt;ul class=&quot;size&quot;&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;XS&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;selected&quot;&gt;
+            &lt;li&gt;S&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;M&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;L&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;li&gt;XL&lt;/li&gt;
+        &lt;/a&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;Quantity:&lt;/p&gt;
+        &lt;form class=&quot;pdp-dropdown&quot;&gt;
+            &lt;select&gt;
+                &lt;option selected disabled&gt;1&lt;/option&gt;
+                &lt;option&gt;1&lt;/option&gt;
+                &lt;option&gt;2&lt;/option&gt;
+                &lt;option&gt;3&lt;/option&gt;
+                &lt;option&gt;4&lt;/option&gt;
+                &lt;option&gt;5&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;large-6 small-12 columns&quot;&gt;
+        &lt;p&gt;Quantity:&lt;/p&gt;
+        &lt;form class=&quot;pdp-dropdown&quot;&gt;
+            &lt;select&gt;
+                &lt;option selected disabled&gt;1&lt;/option&gt;
+                &lt;option&gt;1&lt;/option&gt;
+                &lt;option&gt;2&lt;/option&gt;
+                &lt;option&gt;3&lt;/option&gt;
+                &lt;option&gt;4&lt;/option&gt;
+                &lt;option&gt;5&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/form&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 </content>

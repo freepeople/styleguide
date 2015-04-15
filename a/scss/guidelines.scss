@@ -1,3 +1,9 @@
+/* Search for specific terms to find styles */
+/* Button styling */
+/* Label styling */
+/* Product Detail Page */
+
+
 /* Button styling */
 .btn-group {
 	list-style: none;
@@ -46,7 +52,6 @@ button.tertiary {
 	color: white;
 	padding: 0 16px;
 }
-
 .tertiary-hover {
 	@extend button.tertiary;
 	background-color: $fpme-accent-dk;
@@ -200,4 +205,105 @@ input[type=checkbox]:checked + label {
 		border: 2px solid $pink;
 		outline: none;
 	}
+}
+
+/* Product Detail Page */
+
+.swatches {
+	list-style: none;
+	li {
+		display: inline-block;
+		padding-right: 8px;
+		padding-bottom: 5px;
+		a {
+			img {
+				@include rounded(20px);
+				height: 40px;
+				width: 40px;
+				&:hover,
+				&:focus  {
+					border: 2px solid $grey-dk;
+				}
+			}
+			&:hover,
+			&:focus {
+				border: none;
+			}
+			.selected {
+				border: 3px solid $pink;
+			}
+		}
+	}
+}
+.selected-text {
+	font-weight: 700;
+}
+
+.length {
+	list-style: none;
+	li {
+		display: inline-block;
+		margin-right: 10px;
+		a {
+			@include transition(0);
+			@include rounded(4px);
+			font: 14px $sans-serif;
+			color: $grey;
+			width: auto;
+			height: 32px;
+			padding: 7px 15px;
+			border: 1px solid $grey;
+			&:hover,
+			&:focus {
+				color: $pink;
+				border: 1px solid $pink;
+			}
+		}
+		a.selected {
+			border: 3px solid $pink;
+			font-weight: 700;
+			color: $pink;
+		}
+	}
+}
+
+.size {
+	list-style: none;
+	a {
+		@include transition(0);
+		font: 14px $sans-serif;
+		color: $grey;
+		li {
+			display: inline-block;
+			@include rounded(20px);
+			width: 40px;
+			height: 40px;
+			border: 1px solid $grey;
+			text-align: center;
+			padding-top: 10px;
+			&:hover,
+			&:focus {
+				border: 1px solid $pink;
+			}
+		}
+		&:hover,
+		&:focus {
+			color: $pink;
+			border: none;
+		}
+	}
+	a.selected {
+			color: $pink;
+			font-weight: 700;
+			li {
+				padding-top: 8px;
+				border: 3px solid $pink;
+			}
+		}
+}
+
+.pdp-dropdown {
+	@extend .dropdown;
+	width: 130px;
+	background: 80.5% center;
 }

@@ -14,7 +14,7 @@ permalink: /guidelines/typography
 	<div class="large-12 columns">
 		<h2>Type Families</h2>
 		<div class="serif-example">
-			<p>Serif Typeface: Hoefler Text</p>
+			<p>Serif Typeface: PT Serif</p>
 			<p class="upper-case">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
 			<p class="lower-case">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
 		</div>

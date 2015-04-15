@@ -2278,7 +2278,7 @@ h3 {
 .utility {
   float: right;
   list-style: none;
-  font: 14px "josefin sans", "Avenir Next", Arial, Helvetica, sans-serif;
+  font: 12px "josefin sans", "Avenir Next", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   padding-top: 3px; }
@@ -2350,6 +2350,10 @@ h3 {
   margin-top: 1em; }
 
 /* Various stylesheets for different pages */
+/* Search for specific terms to find styles */
+/* Button styling */
+/* Label styling */
+/* Product Detail Page */
 /* Button styling */
 .btn-group {
   list-style: none; }
@@ -2513,7 +2517,7 @@ input[type=checkbox]:checked + label:before {
   height: 20px;
   border: 2px solid #ff008a; }
 
-.dropdown select {
+.dropdown select, .pdp-dropdown select {
   border-radius: 4px;
   -webkit-box-radius: 4px;
   -moz-box-radius: 4px;
@@ -2529,6 +2533,91 @@ input[type=checkbox]:checked + label:before {
   color: #333333;
   padding-left: 20px;
   box-shadow: none; }
-  .dropdown select:focus {
+  .dropdown select:focus, .pdp-dropdown select:focus {
     border: 2px solid #ff008a;
     outline: none; }
+
+/* Product Detail Page */
+.swatches {
+  list-style: none; }
+  .swatches li {
+    display: inline-block;
+    padding-right: 8px;
+    padding-bottom: 5px; }
+    .swatches li a img {
+      border-radius: 20px;
+      -webkit-box-radius: 20px;
+      -moz-box-radius: 20px;
+      height: 40px;
+      width: 40px; }
+      .swatches li a img:hover, .swatches li a img:focus {
+        border: 2px solid #333333; }
+    .swatches li a:hover, .swatches li a:focus {
+      border: none; }
+    .swatches li a .selected {
+      border: 3px solid #ff008a; }
+
+.selected-text {
+  font-weight: 700; }
+
+.length {
+  list-style: none; }
+  .length li {
+    display: inline-block;
+    margin-right: 10px; }
+    .length li a {
+      -webkit-transition: 0;
+      -moz-transition: 0;
+      -o-transition: 0;
+      transition: 0;
+      border-radius: 4px;
+      -webkit-box-radius: 4px;
+      -moz-box-radius: 4px;
+      font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
+      color: #7e7e7e;
+      width: auto;
+      height: 32px;
+      padding: 7px 15px;
+      border: 1px solid #7e7e7e; }
+      .length li a:hover, .length li a:focus {
+        color: #ff008a;
+        border: 1px solid #ff008a; }
+    .length li a.selected {
+      border: 3px solid #ff008a;
+      font-weight: 700;
+      color: #ff008a; }
+
+.size {
+  list-style: none; }
+  .size a {
+    -webkit-transition: 0;
+    -moz-transition: 0;
+    -o-transition: 0;
+    transition: 0;
+    font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
+    color: #7e7e7e; }
+    .size a li {
+      display: inline-block;
+      border-radius: 20px;
+      -webkit-box-radius: 20px;
+      -moz-box-radius: 20px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #7e7e7e;
+      text-align: center;
+      padding-top: 10px; }
+      .size a li:hover, .size a li:focus {
+        border: 1px solid #ff008a; }
+    .size a:hover, .size a:focus {
+      color: #ff008a;
+      border: none; }
+  .size a.selected {
+    color: #ff008a;
+    font-weight: 700; }
+    .size a.selected li {
+      padding-top: 8px;
+      border: 3px solid #ff008a; }
+
+.pdp-dropdown {
+  width: 130px;
+  background: 80.5% center; }

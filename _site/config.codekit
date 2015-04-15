@@ -176,6 +176,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3934,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-1.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4665,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-2.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3646,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-3.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4695,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-4.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3528,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-5.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3884,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-6.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3327,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-7.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2839,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-8.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/pdp\/swatches\/swatch-9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3032,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-9.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/pdp\/swatches\/swatch-9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/a\/i\/utility\/bag-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -340,15 +439,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/a\/scss\/input.scss": {
+	"\/_site\/a\/scss\/global.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/a\/scss\/input.scss",
-		"outputAbbreviatedPath": "\/_site\/a\/css\/input.css",
+		"inputAbbreviatedPath": "\/_site\/a\/scss\/global.scss",
+		"outputAbbreviatedPath": "\/_site\/a\/css\/global.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -495,15 +594,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/guidelines\/margins\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/guidelines\/margins\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/guidelines\/typography\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -513,11 +603,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/guidelines\/visual-ui\/index.html": {
+	"\/_site\/guidelines\/visuals\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/guidelines\/visual-ui\/index.html",
+		"inputAbbreviatedPath": "\/_site\/guidelines\/visuals\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -656,6 +746,105 @@
 		"initialSize": 18630,
 		"inputAbbreviatedPath": "\/a\/i\/nav-bg.jpg",
 		"outputAbbreviatedPath": "\/a\/i\/nav-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3934,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-1.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4665,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-2.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3646,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-3.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4695,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-4.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3528,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-5.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3884,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-6.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3327,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-7.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2839,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-8.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/pdp\/swatches\/swatch-9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3032,
+		"inputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-9.png",
+		"outputAbbreviatedPath": "\/a\/i\/pdp\/swatches\/swatch-9.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -840,15 +1029,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/a\/scss\/input.scss": {
+	"\/a\/scss\/guidelines.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/a\/scss\/input.scss",
-		"outputAbbreviatedPath": "\/a\/css\/input.css",
+		"inputAbbreviatedPath": "\/a\/scss\/guidelines.scss",
+		"outputAbbreviatedPath": "\/a\/css\/guidelines.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
