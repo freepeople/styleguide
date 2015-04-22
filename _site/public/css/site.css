@@ -2621,3 +2621,25 @@ input[type=checkbox]:checked + label:before {
 .pdp-dropdown {
   width: 130px;
   background: 80.5% center; }
+
+.product-block .browse-pic {
+  width: 100%; }
+.product-block .promo {
+  font: 10px "Avenir Next", Arial, Helvetica, sans-serif;
+  color: #659d9c;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px; }
+.product-block .browse-swatches {
+  text-align: center;
+  list-style: none; }
+  .product-block .browse-swatches li {
+    display: inline-block; }
+    .product-block .browse-swatches li .extra-swatch {
+      color: #ff008a; }
+
+.product-info {
+  text-align: center;
+  padding-top: 16px; }
+  .product-info p {
+    margin: 0 0 6px 0; }

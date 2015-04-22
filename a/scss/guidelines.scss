@@ -307,3 +307,34 @@ input[type=checkbox]:checked + label {
 	width: 130px;
 	background: 80.5% center;
 }
+
+.product-block {
+	.browse-pic {
+		width: 100%;
+	}
+	.promo {
+		font: 10px $sans-serif;
+		color: $fpme-accent;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 2px;
+	}
+	.browse-swatches {
+		text-align: center;
+		list-style: none;
+		li {
+			display: inline-block;
+			.extra-swatch {
+				color: $pink;
+			}
+		}
+	}
+}
+
+.product-info {
+	text-align: center;
+	padding-top: 16px;
+	p {
+		margin: 0 0 6px 0;
+	}
+}

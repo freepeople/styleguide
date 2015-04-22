@@ -110,6 +110,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/a\/i\/browse\/product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34075,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/product.jpg",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/browse\/swatch1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1335,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch1.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/browse\/swatch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1357,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch2.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/browse\/swatch3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1216,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch3.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/browse\/swatch4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1498,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch4.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/browse\/swatch5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1362,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch5.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/a\/i\/browse\/swatch6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1816,
+		"inputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch6.png",
+		"outputAbbreviatedPath": "\/_site\/a\/i\/browse\/swatch6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/a\/i\/global\/checkbox-active.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -535,6 +612,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/a\/scss\/variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/a\/scss\/variables.scss",
+		"outputAbbreviatedPath": "\/_site\/a\/css\/variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/a\/scss\/visibility.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -667,6 +760,83 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/a\/i\/browse\/product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34075,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/product.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/browse\/swatch1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1335,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/swatch1.png",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/swatch1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/browse\/swatch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1357,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/swatch2.png",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/swatch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/browse\/swatch3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1216,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/swatch3.png",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/swatch3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/browse\/swatch4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1498,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/swatch4.png",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/swatch4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/browse\/swatch5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1362,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/swatch5.png",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/swatch5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/browse\/swatch6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1816,
+		"inputAbbreviatedPath": "\/a\/i\/browse\/swatch6.png",
+		"outputAbbreviatedPath": "\/a\/i\/browse\/swatch6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/a\/i\/global\/checkbox-active.png": {
 		"fileType": 32768,
