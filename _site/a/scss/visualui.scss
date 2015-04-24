@@ -1,0 +1,145 @@
+/* Product Detail Page */
+
+.swatches {
+	list-style: none;
+	li {
+		display: inline-block;
+		padding-right: 8px;
+		padding-bottom: 5px;
+		a {
+			img {
+				@include rounded(20px);
+				height: 40px;
+				width: 40px;
+				&:hover,
+				&:focus  {
+					border: 2px solid $grey-dk;
+				}
+			}
+			&:hover,
+			&:focus {
+				border: none;
+			}
+			.selected {
+				border: 3px solid $pink;
+			}
+		}
+	}
+}
+.selected-text {
+	font-weight: 700;
+}
+
+.length {
+	list-style: none;
+	li {
+		display: inline-block;
+		margin-right: 10px;
+		a {
+			@include transition(0);
+			@include rounded(4px);
+			font: 14px $sans-serif;
+			color: $grey;
+			width: auto;
+			height: 32px;
+			padding: 7px 15px;
+			border: 1px solid $grey;
+			&:hover,
+			&:focus {
+				color: $pink;
+				border: 1px solid $pink;
+			}
+		}
+		a.selected {
+			border: 3px solid $pink;
+			font-weight: 700;
+			color: $pink;
+		}
+	}
+}
+
+.size {
+	list-style: none;
+	a {
+		@include transition(0);
+		font: 14px $sans-serif;
+		color: $grey;
+		li {
+			display: inline-block;
+			@include rounded(20px);
+			width: 40px;
+			height: 40px;
+			border: 1px solid $grey;
+			text-align: center;
+			padding-top: 10px;
+			&:hover,
+			&:focus {
+				border: 1px solid $pink;
+			}
+		}
+		&:hover,
+		&:focus {
+			color: $pink;
+			border: none;
+		}
+	}
+	a.selected {
+		color: $pink;
+		font-weight: 700;
+		li {
+			padding-top: 8px;
+			border: 3px solid $pink;
+		}
+	}
+}
+
+.pdp-dropdown {
+	@extend .dropdown;
+	width: 130px;
+	background: 80.5% center;
+}
+
+.product-block {
+	.browse-pic {
+		width: 100%;
+	}
+	.product-info {
+		text-align: center;
+		padding-top: 16px;
+		p {
+			font: 28px $sans-serif;
+			margin: 0 0 6px 0;
+			@media only screen and (min-width: 40.063em) {
+				font: 14px $sans-serif;
+			}
+		}
+		.product-name {
+			font-family: $serif;
+			font-style: italic;
+		}
+		.promo {
+			font: 16px $sans-serif;
+			color: $fpme-accent;
+			text-transform: uppercase;
+			font-weight: 600;
+			@media only screen and (min-width: 40.063em) {
+				font: 10px $sans-serif;
+				letter-spacing: 2px;
+			}
+		}
+		.markdown {
+			color: $grey-lt;
+			font-style: italic;
+		}
+	}
+	.browse-swatches {
+		text-align: center;
+		list-style: none;
+		li {
+			display: inline-block;
+			.extra-swatch {
+				color: $pink;
+			}
+		}
+	}
+}

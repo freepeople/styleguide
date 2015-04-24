@@ -2195,60 +2195,6 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
-body {
-  font: 100% serif; }
-
-p {
-  font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
-  color: #333333; }
-
-p.caption {
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #7e7e7e; }
-
-a {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #ff008a;
-  text-decoration: none; }
-  a:focus, a:hover {
-    color: #c8006c;
-    border-bottom: 1px solid #c8006c; }
-
-a.important {
-  font-weight: 600;
-  border-bottom: 1px solid #ff008a; }
-  a.important:hover, a.important:focus {
-    border-bottom: 1px solid #c8006c; }
-
-h1 {
-  font: 26px "PT Serif", "Hoefler Text", Georgia, serif;
-  color: #333333;
-  font-style: italic; }
-
-h2 {
-  font: 21px "Avenir Next", Arial, Helvetica, sans-serif;
-  color: #333333;
-  font-weight: 600; }
-
-h3 {
-  font: 18px "Avenir Next", Arial, Helvetica, sans-serif;
-  color: #333333;
-  font-weight: 600; }
-
-.serif-example p {
-  font: 18px "PT Serif", "Hoefler Text", Georgia, serif; }
-
-.sans-serif-example p {
-  font: 18px "Avenir Next", Arial, Helvetica, sans-serif; }
-
-.lower-case {
-  text-transform: lowercase; }
-
 .utility-nav {
   background-color: white;
   height: auto;
@@ -2624,12 +2570,30 @@ input[type=checkbox]:checked + label:before {
 
 .product-block .browse-pic {
   width: 100%; }
-.product-block .promo {
-  font: 10px "Avenir Next", Arial, Helvetica, sans-serif;
-  color: #659d9c;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px; }
+.product-block .product-info {
+  text-align: center;
+  padding-top: 16px; }
+  .product-block .product-info p {
+    font: 28px "Avenir Next", Arial, Helvetica, sans-serif;
+    margin: 0 0 6px 0; }
+    @media only screen and (min-width: 40.063em) {
+      .product-block .product-info p {
+        font: 14px "Avenir Next", Arial, Helvetica, sans-serif; } }
+  .product-block .product-info .product-name {
+    font-family: "PT Serif", "Hoefler Text", Georgia, serif;
+    font-style: italic; }
+  .product-block .product-info .promo {
+    font: 16px "Avenir Next", Arial, Helvetica, sans-serif;
+    color: #659d9c;
+    text-transform: uppercase;
+    font-weight: 600; }
+    @media only screen and (min-width: 40.063em) {
+      .product-block .product-info .promo {
+        font: 10px "Avenir Next", Arial, Helvetica, sans-serif;
+        letter-spacing: 2px; } }
+  .product-block .product-info .markdown {
+    color: #bebebe;
+    font-style: italic; }
 .product-block .browse-swatches {
   text-align: center;
   list-style: none; }
@@ -2638,8 +2602,56 @@ input[type=checkbox]:checked + label:before {
     .product-block .browse-swatches li .extra-swatch {
       color: #ff008a; }
 
-.product-info {
-  text-align: center;
-  padding-top: 16px; }
-  .product-info p {
-    margin: 0 0 6px 0; }
+body {
+  font: 100% serif; }
+
+p {
+  font: 14px "Avenir Next", Arial, Helvetica, sans-serif;
+  color: #333333; }
+
+p.caption {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #7e7e7e; }
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #ff008a;
+  text-decoration: none; }
+  a:focus, a:hover {
+    color: #c8006c;
+    border-bottom: 1px solid #c8006c; }
+
+a.important {
+  font-weight: 600;
+  border-bottom: 1px solid #ff008a; }
+  a.important:hover, a.important:focus {
+    border-bottom: 1px solid #c8006c; }
+
+h1 {
+  font: 26px "PT Serif", "Hoefler Text", Georgia, serif;
+  color: #333333;
+  font-style: italic; }
+
+h2 {
+  font: 21px "Avenir Next", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-weight: 600; }
+
+h3 {
+  font: 18px "Avenir Next", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-weight: 600; }
+
+.serif-example p {
+  font: 18px "PT Serif", "Hoefler Text", Georgia, serif; }
+
+.sans-serif-example p {
+  font: 18px "Avenir Next", Arial, Helvetica, sans-serif; }
+
+.lower-case {
+  text-transform: lowercase; }
