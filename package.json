@@ -1,0 +1,22 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "description": "FP StyleGuide",
+  "main": "index.js",
+  "devDependencies": {
+    "fp-scss": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freepeople/styleguide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freepeople/styleguide/issues"
+  },
+  "homepage": "https://github.com/freepeople/styleguide#readme"
+}
